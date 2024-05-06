@@ -23,7 +23,9 @@ void setup() {
   Serial.begin(9600);           //  setup serial
 }
 void normalize(){
-  // Pseudo
+  // Function to normalize data during the first t seconds of operation
+  // Return values to check against in the later if statements
+  // Pseudo code
 }
 
 void loop() {
