@@ -1,3 +1,4 @@
+// Test update
 //set pins to variables
 int leftPin = A0;
 int midPin = A1;
