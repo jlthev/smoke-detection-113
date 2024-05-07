@@ -20,6 +20,6 @@ Follow the tutorial on the [create3](https://edu.irobot.com/learning-library/con
 WIP
 **
 
-## BLE Connectivity
+## ❖ BLE Connectivity
 1. Identify irobot3 MAC address
    - `Bluetooth(address="#irobot BLE MAC address")`
