@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+
+# Script reads serial USB input and prints to the command line
+# ACM0 needs to be updated with the proper usb port
+# Written by Joseph Loeffler
+# Last update - 5/7/24
+
 import serial
 
 if __name__ == '__main__':
