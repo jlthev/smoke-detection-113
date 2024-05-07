@@ -1,0 +1,1109 @@
+[0.331s] Invoking command in '/home/group1/create3_examples_ws/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/group1/create3_examples_ws/src/irobot_create_msgs -DCMAKE_INSTALL_PREFIX=/home/group1/create3_examples_ws/install/irobot_create_msgs
+[3.582s] -- The C compiler identification is GNU 11.4.0
+[5.635s] -- The CXX compiler identification is GNU 11.4.0
+[5.807s] -- Detecting C compiler ABI info
+[7.278s] -- Detecting C compiler ABI info - done
+[7.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.455s] -- Detecting C compile features
+[7.478s] -- Detecting C compile features - done
+[7.545s] -- Detecting CXX compiler ABI info
+[9.117s] -- Detecting CXX compiler ABI info - done
+[9.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.293s] -- Detecting CXX compile features
+[9.305s] -- Detecting CXX compile features - done
+[9.453s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.816s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[15.508s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[15.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.931s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.715s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[20.875s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[34.426s] -- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[34.516s] -- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[34.604s] -- Found ament_cmake_uncrustify: 0.12.10 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[34.695s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[40.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[50.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[50.527s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[50.605s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[51.154s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[51.157s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[51.159s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[51.162s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[51.689s] -- Found PythonExtra: .so  
+[53.779s] -- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[53.879s] -- Found ament_cmake_pep257: 0.12.10 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[54.365s] -- Configuring done
+[58.842s] -- Generating done
+[58.940s] -- Build files have been written to: /home/group1/create3_examples_ws/build/irobot_create_msgs
+[59.249s] Invoked command in '/home/group1/create3_examples_ws/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/group1/create3_examples_ws/src/irobot_create_msgs -DCMAKE_INSTALL_PREFIX=/home/group1/create3_examples_ws/install/irobot_create_msgs
+[59.268s] Invoking command in '/home/group1/create3_examples_ws/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/group1/create3_examples_ws/build/irobot_create_msgs -- -j4 -l4
+[60.722s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[61.034s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[61.171s] [  1%] Built target ament_cmake_python_copy_irobot_create_msgs
+[72.698s] running egg_info
+[72.729s] creating irobot_create_msgs.egg-info
+[72.757s] writing irobot_create_msgs.egg-info/PKG-INFO
+[72.771s] writing dependency_links to irobot_create_msgs.egg-info/dependency_links.txt
+[72.787s] writing top-level names to irobot_create_msgs.egg-info/top_level.txt
+[72.820s] writing manifest file 'irobot_create_msgs.egg-info/SOURCES.txt'
+[72.920s] reading manifest file 'irobot_create_msgs.egg-info/SOURCES.txt'
+[72.968s] writing manifest file 'irobot_create_msgs.egg-info/SOURCES.txt'
+[74.695s] [  1%] Built target ament_cmake_python_build_irobot_create_msgs_egg
+[189.460s] [  1%] Built target irobot_create_msgs__cpp
+[197.092s] [  1%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/audio_note_sequence__functions.c.o[0m
+[199.586s] [  1%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/dock__functions.c.o[0m
+[201.916s] [  2%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/drive_arc__functions.c.o[0m
+[204.366s] [  2%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/drive_distance__functions.c.o[0m
+[206.785s] [  2%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/led_animation__functions.c.o[0m
+[209.222s] [  3%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/navigate_to_position__functions.c.o[0m
+[211.684s] [  3%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/rotate_angle__functions.c.o[0m
+[214.104s] [  4%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/undock__functions.c.o[0m
+[216.431s] [  4%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/action/detail/wall_follow__functions.c.o[0m
+[218.813s] [  4%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/audio_note__functions.c.o[0m
+[219.793s] [  5%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/audio_note_vector__functions.c.o[0m
+[220.809s] [  5%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/button__functions.c.o[0m
+[221.845s] [  5%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/dock_status__functions.c.o[0m
+[222.846s] [  6%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/hazard_detection__functions.c.o[0m
+[223.853s] [  6%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/hazard_detection_vector__functions.c.o[0m
+[224.864s] [  7%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/interface_buttons__functions.c.o[0m
+[225.905s] [  7%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/ir_intensity__functions.c.o[0m
+[226.902s] [  7%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/ir_intensity_vector__functions.c.o[0m
+[227.937s] [  8%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/ir_opcode__functions.c.o[0m
+[228.964s] [  8%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/kidnap_status__functions.c.o[0m
+[229.960s] [  8%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/led_color__functions.c.o[0m
+[230.921s] [  9%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/lightring_leds__functions.c.o[0m
+[231.955s] [  9%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/mouse__functions.c.o[0m
+[232.960s] [  9%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/slip_status__functions.c.o[0m
+[233.959s] [ 10%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/stop_status__functions.c.o[0m
+[234.957s] [ 10%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/wheel_status__functions.c.o[0m
+[235.969s] [ 11%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/wheel_ticks__functions.c.o[0m
+[236.975s] [ 11%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/msg/detail/wheel_vels__functions.c.o[0m
+[237.980s] [ 11%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/srv/detail/e_stop__functions.c.o[0m
+[239.140s] [ 12%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/srv/detail/reset_pose__functions.c.o[0m
+[240.310s] [ 12%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_c.dir/rosidl_generator_c/irobot_create_msgs/srv/detail/robot_power__functions.c.o[0m
+[241.474s] [ 12%] [32m[1mLinking C shared library libirobot_create_msgs__rosidl_generator_c.so[0m
+[242.438s] [ 12%] Built target irobot_create_msgs__rosidl_generator_c
+[242.674s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[242.679s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[242.684s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[242.712s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[311.317s] [ 16%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/audio_note_sequence__type_support.cpp.o[0m
+[321.590s] [ 16%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/dock__type_support.cpp.o[0m
+[330.222s] [ 16%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/audio_note_sequence__type_support.cpp.o[0m
+[331.760s] [ 17%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/drive_arc__type_support.cpp.o[0m
+[342.122s] [ 17%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/drive_distance__type_support.cpp.o[0m
+[344.169s] [ 17%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/dock__type_support.cpp.o[0m
+[346.792s] [ 17%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/audio_note_sequence__type_support_c.cpp.o[0m
+[351.383s] [ 17%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/audio_note_sequence__type_support.cpp.o[0m
+[352.708s] [ 17%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/led_animation__type_support.cpp.o[0m
+[356.010s] [ 17%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/dock__type_support_c.cpp.o[0m
+[357.686s] [ 18%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/drive_arc__type_support.cpp.o[0m
+[363.738s] [ 19%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/navigate_to_position__type_support.cpp.o[0m
+[364.908s] [ 19%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/dock__type_support.cpp.o[0m
+[365.347s] [ 20%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/drive_arc__type_support_c.cpp.o[0m
+[371.469s] [ 20%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/drive_distance__type_support.cpp.o[0m
+[374.386s] [ 20%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/rotate_angle__type_support.cpp.o[0m
+[374.643s] [ 20%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/drive_distance__type_support_c.cpp.o[0m
+[377.572s] [ 21%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/drive_arc__type_support.cpp.o[0m
+[383.902s] [ 22%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/led_animation__type_support_c.cpp.o[0m
+[385.085s] [ 22%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/undock__type_support.cpp.o[0m
+[385.446s] [ 23%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/led_animation__type_support.cpp.o[0m
+[390.436s] [ 23%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/drive_distance__type_support.cpp.o[0m
+[393.225s] [ 23%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/navigate_to_position__type_support_c.cpp.o[0m
+[395.239s] [ 24%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/action/wall_follow__type_support.cpp.o[0m
+[399.030s] [ 24%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/navigate_to_position__type_support.cpp.o[0m
+[402.407s] [ 24%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/rotate_angle__type_support_c.cpp.o[0m
+[403.136s] [ 24%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/led_animation__type_support.cpp.o[0m
+[405.620s] [ 24%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/audio_note__type_support.cpp.o[0m
+[411.406s] [ 25%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/undock__type_support_c.cpp.o[0m
+[412.114s] [ 26%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/audio_note_vector__type_support.cpp.o[0m
+[412.523s] [ 26%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/rotate_angle__type_support.cpp.o[0m
+[415.918s] [ 27%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/navigate_to_position__type_support.cpp.o[0m
+[418.173s] [ 27%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/button__type_support.cpp.o[0m
+[420.354s] [ 27%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/action/detail/wall_follow__type_support_c.cpp.o[0m
+[424.374s] [ 27%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/dock_status__type_support.cpp.o[0m
+[425.940s] [ 28%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/undock__type_support.cpp.o[0m
+[428.779s] [ 28%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/rotate_angle__type_support.cpp.o[0m
+[429.447s] [ 28%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/audio_note__type_support_c.cpp.o[0m
+[430.617s] [ 29%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/hazard_detection__type_support.cpp.o[0m
+[436.856s] [ 29%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/hazard_detection_vector__type_support.cpp.o[0m
+[437.034s] [ 30%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/audio_note_vector__type_support_c.cpp.o[0m
+[438.777s] [ 30%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/action/detail/wall_follow__type_support.cpp.o[0m
+[441.316s] [ 31%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/undock__type_support.cpp.o[0m
+[442.875s] [ 31%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/interface_buttons__type_support.cpp.o[0m
+[444.738s] [ 31%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/button__type_support_c.cpp.o[0m
+[448.979s] [ 32%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/ir_intensity__type_support.cpp.o[0m
+[451.959s] [ 32%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/audio_note__type_support.cpp.o[0m
+[452.601s] [ 32%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/dock_status__type_support_c.cpp.o[0m
+[453.708s] [ 32%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/action/detail/dds_fastrtps/wall_follow__type_support.cpp.o[0m
+[455.118s] [ 32%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/ir_intensity_vector__type_support.cpp.o[0m
+[460.174s] [ 33%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/hazard_detection__type_support_c.cpp.o[0m
+[460.373s] [ 34%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/audio_note_vector__type_support.cpp.o[0m
+[461.172s] [ 35%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/ir_opcode__type_support.cpp.o[0m
+[465.981s] [ 35%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/audio_note__type_support.cpp.o[0m
+[467.256s] [ 35%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/kidnap_status__type_support.cpp.o[0m
+[467.948s] [ 35%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/hazard_detection_vector__type_support_c.cpp.o[0m
+[469.672s] [ 35%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/button__type_support.cpp.o[0m
+[473.166s] [ 35%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/led_color__type_support.cpp.o[0m
+[474.841s] [ 36%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/audio_note_vector__type_support.cpp.o[0m
+[475.582s] [ 37%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/interface_buttons__type_support_c.cpp.o[0m
+[478.349s] [ 37%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/dock_status__type_support.cpp.o[0m
+[479.241s] [ 38%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/lightring_leds__type_support.cpp.o[0m
+[484.072s] [ 38%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/ir_intensity__type_support_c.cpp.o[0m
+[486.156s] [ 38%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/button__type_support.cpp.o[0m
+[486.776s] [ 38%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/mouse__type_support.cpp.o[0m
+[488.528s] [ 39%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/hazard_detection__type_support.cpp.o[0m
+[492.960s] [ 39%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/ir_intensity_vector__type_support_c.cpp.o[0m
+[493.277s] [ 39%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/slip_status__type_support.cpp.o[0m
+[495.396s] [ 39%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/dock_status__type_support.cpp.o[0m
+[497.078s] [ 39%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/hazard_detection_vector__type_support.cpp.o[0m
+[499.484s] [ 40%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/stop_status__type_support.cpp.o[0m
+[500.706s] [ 41%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/ir_opcode__type_support_c.cpp.o[0m
+[504.426s] [ 42%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/hazard_detection__type_support.cpp.o[0m
+[505.737s] [ 42%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/wheel_status__type_support.cpp.o[0m
+[506.528s] [ 43%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/interface_buttons__type_support.cpp.o[0m
+[508.402s] [ 43%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/kidnap_status__type_support_c.cpp.o[0m
+[511.817s] [ 43%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/wheel_ticks__type_support.cpp.o[0m
+[513.211s] [ 43%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/hazard_detection_vector__type_support.cpp.o[0m
+[515.306s] [ 43%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/ir_intensity__type_support.cpp.o[0m
+[516.245s] [ 43%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/led_color__type_support_c.cpp.o[0m
+[517.981s] [ 44%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/msg/wheel_vels__type_support.cpp.o[0m
+[523.148s] [ 45%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/interface_buttons__type_support.cpp.o[0m
+[523.825s] [ 45%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/ir_intensity_vector__type_support.cpp.o[0m
+[523.885s] [ 46%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/lightring_leds__type_support_c.cpp.o[0m
+[524.362s] [ 46%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/srv/e_stop__type_support.cpp.o[0m
+[530.556s] [ 47%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/srv/reset_pose__type_support.cpp.o[0m
+[531.627s] [ 47%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/mouse__type_support_c.cpp.o[0m
+[531.933s] [ 47%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/ir_intensity__type_support.cpp.o[0m
+[532.891s] [ 48%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/ir_opcode__type_support.cpp.o[0m
+[536.704s] [ 48%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/irobot_create_msgs/srv/robot_power__type_support.cpp.o[0m
+[539.255s] [ 49%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/slip_status__type_support_c.cpp.o[0m
+[540.879s] [ 49%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/ir_intensity_vector__type_support.cpp.o[0m
+[541.338s] [ 49%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/kidnap_status__type_support.cpp.o[0m
+[542.923s] [ 49%] [32m[1mLinking CXX shared library libirobot_create_msgs__rosidl_typesupport_cpp.so[0m
+[544.291s] [ 49%] Built target irobot_create_msgs__rosidl_typesupport_cpp
+[546.838s] [ 49%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/stop_status__type_support_c.cpp.o[0m
+[549.579s] [ 49%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/led_color__type_support.cpp.o[0m
+[550.079s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/ir_opcode__type_support.cpp.o[0m
+[553.902s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/wheel_status__type_support_c.cpp.o[0m
+[557.432s] [ 51%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/lightring_leds__type_support.cpp.o[0m
+[558.220s] [ 51%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/kidnap_status__type_support.cpp.o[0m
+[560.941s] [ 52%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/wheel_ticks__type_support_c.cpp.o[0m
+[565.462s] [ 52%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/mouse__type_support.cpp.o[0m
+[566.390s] [ 52%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/led_color__type_support.cpp.o[0m
+[567.941s] [ 52%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/msg/detail/wheel_vels__type_support_c.cpp.o[0m
+[573.413s] [ 53%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/slip_status__type_support.cpp.o[0m
+[574.477s] [ 54%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/lightring_leds__type_support.cpp.o[0m
+[574.969s] [ 54%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/srv/detail/e_stop__type_support_c.cpp.o[0m
+[581.172s] [ 54%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/stop_status__type_support.cpp.o[0m
+[582.391s] [ 55%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/srv/detail/reset_pose__type_support_c.cpp.o[0m
+[582.716s] [ 55%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/mouse__type_support.cpp.o[0m
+[588.902s] [ 55%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/wheel_status__type_support.cpp.o[0m
+[589.781s] [ 55%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/irobot_create_msgs/srv/detail/robot_power__type_support_c.cpp.o[0m
+[590.853s] [ 55%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/slip_status__type_support.cpp.o[0m
+[596.741s] [ 56%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/wheel_ticks__type_support.cpp.o[0m
+[597.130s] [ 56%] [32m[1mLinking CXX shared library libirobot_create_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[598.990s] [ 56%] Built target irobot_create_msgs__rosidl_typesupport_fastrtps_c
+[599.026s] [ 57%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/stop_status__type_support.cpp.o[0m
+[604.075s] [ 57%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/msg/detail/wheel_vels__type_support.cpp.o[0m
+[606.532s] [ 57%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/wheel_status__type_support.cpp.o[0m
+[611.322s] [ 57%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/srv/detail/e_stop__type_support.cpp.o[0m
+[614.116s] [ 58%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/wheel_ticks__type_support.cpp.o[0m
+[618.630s] [ 59%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/srv/detail/reset_pose__type_support.cpp.o[0m
+[621.634s] [ 59%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/msg/detail/dds_fastrtps/wheel_vels__type_support.cpp.o[0m
+[625.958s] [ 59%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/irobot_create_msgs/srv/detail/robot_power__type_support.cpp.o[0m
+[629.127s] [ 59%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/srv/detail/dds_fastrtps/e_stop__type_support.cpp.o[0m
+[633.245s] [ 60%] [32m[1mLinking CXX shared library libirobot_create_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[635.101s] [ 60%] Built target irobot_create_msgs__rosidl_typesupport_introspection_cpp
+[635.251s] [ 61%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/srv/detail/dds_fastrtps/reset_pose__type_support.cpp.o[0m
+[635.435s] [ 62%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[637.263s] [ 62%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/irobot_create_msgs/srv/detail/dds_fastrtps/robot_power__type_support.cpp.o[0m
+[645.616s] [ 62%] [32m[1mLinking CXX shared library libirobot_create_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[647.305s] [ 62%] Built target irobot_create_msgs__rosidl_typesupport_fastrtps_cpp
+[647.533s] [ 63%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[695.328s] [ 63%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/audio_note_sequence__type_support.cpp.o[0m
+[695.345s] [ 64%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/drive_arc__type_support.cpp.o[0m
+[695.348s] [ 64%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/dock__type_support.cpp.o[0m
+[696.521s] [ 64%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/drive_distance__type_support.cpp.o[0m
+[696.531s] [ 64%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/led_animation__type_support.cpp.o[0m
+[696.585s] [ 65%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/navigate_to_position__type_support.cpp.o[0m
+[697.705s] [ 65%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/rotate_angle__type_support.cpp.o[0m
+[697.760s] [ 66%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/undock__type_support.cpp.o[0m
+[697.804s] [ 66%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/action/wall_follow__type_support.cpp.o[0m
+[698.906s] [ 66%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/audio_note__type_support.cpp.o[0m
+[698.953s] [ 67%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/audio_note_vector__type_support.cpp.o[0m
+[698.974s] [ 67%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/button__type_support.cpp.o[0m
+[699.580s] [ 67%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/dock_status__type_support.cpp.o[0m
+[699.679s] [ 68%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/hazard_detection__type_support.cpp.o[0m
+[699.682s] [ 68%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/hazard_detection_vector__type_support.cpp.o[0m
+[700.297s] [ 68%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/interface_buttons__type_support.cpp.o[0m
+[700.378s] [ 69%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/ir_intensity__type_support.cpp.o[0m
+[700.434s] [ 69%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/ir_intensity_vector__type_support.cpp.o[0m
+[701.017s] [ 70%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/ir_opcode__type_support.cpp.o[0m
+[701.076s] [ 70%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/kidnap_status__type_support.cpp.o[0m
+[701.175s] [ 70%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/led_color__type_support.cpp.o[0m
+[701.755s] [ 71%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/lightring_leds__type_support.cpp.o[0m
+[701.771s] [ 71%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/mouse__type_support.cpp.o[0m
+[701.881s] [ 71%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/slip_status__type_support.cpp.o[0m
+[702.493s] [ 72%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/wheel_status__type_support.cpp.o[0m
+[702.497s] [ 72%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/stop_status__type_support.cpp.o[0m
+[702.575s] [ 73%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/wheel_ticks__type_support.cpp.o[0m
+[703.212s] [ 73%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/msg/wheel_vels__type_support.cpp.o[0m
+[703.230s] [ 73%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/srv/e_stop__type_support.cpp.o[0m
+[703.301s] [ 74%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/srv/reset_pose__type_support.cpp.o[0m
+[703.904s] [ 74%] [32mBuilding CXX object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/irobot_create_msgs/srv/robot_power__type_support.cpp.o[0m
+[704.577s] [ 74%] [32m[1mLinking CXX shared library libirobot_create_msgs__rosidl_typesupport_c.so[0m
+[705.506s] [ 74%] Built target irobot_create_msgs__rosidl_typesupport_c
+[727.208s] [ 74%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/audio_note_sequence__type_support.c.o[0m
+[727.218s] [ 75%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/dock__type_support.c.o[0m
+[727.221s] [ 75%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/drive_arc__type_support.c.o[0m
+[727.229s] [ 75%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/drive_distance__type_support.c.o[0m
+[729.055s] [ 76%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/led_animation__type_support.c.o[0m
+[729.072s] [ 76%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/navigate_to_position__type_support.c.o[0m
+[729.075s] [ 76%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/rotate_angle__type_support.c.o[0m
+[729.106s] [ 77%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/undock__type_support.c.o[0m
+[730.242s] [ 77%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/action/detail/wall_follow__type_support.c.o[0m
+[730.279s] [ 77%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/audio_note__type_support.c.o[0m
+[730.303s] [ 78%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/audio_note_vector__type_support.c.o[0m
+[730.341s] [ 78%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/button__type_support.c.o[0m
+[731.153s] [ 79%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/dock_status__type_support.c.o[0m
+[731.291s] [ 79%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/hazard_detection__type_support.c.o[0m
+[731.303s] [ 79%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/hazard_detection_vector__type_support.c.o[0m
+[731.459s] [ 80%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/interface_buttons__type_support.c.o[0m
+[732.024s] [ 80%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/ir_intensity__type_support.c.o[0m
+[732.143s] [ 80%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/ir_intensity_vector__type_support.c.o[0m
+[732.250s] [ 81%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/ir_opcode__type_support.c.o[0m
+[732.349s] [ 81%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/kidnap_status__type_support.c.o[0m
+[732.876s] [ 82%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/led_color__type_support.c.o[0m
+[733.064s] [ 82%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/lightring_leds__type_support.c.o[0m
+[733.169s] [ 82%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/mouse__type_support.c.o[0m
+[733.221s] [ 83%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/slip_status__type_support.c.o[0m
+[733.717s] [ 83%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/stop_status__type_support.c.o[0m
+[733.993s] [ 83%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/wheel_status__type_support.c.o[0m
+[734.030s] [ 84%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/wheel_ticks__type_support.c.o[0m
+[734.092s] [ 84%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/msg/detail/wheel_vels__type_support.c.o[0m
+[734.570s] [ 84%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/srv/detail/e_stop__type_support.c.o[0m
+[734.886s] [ 85%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/srv/detail/reset_pose__type_support.c.o[0m
+[734.902s] [ 85%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/irobot_create_msgs/srv/detail/robot_power__type_support.c.o[0m
+[735.743s] [ 86%] [32m[1mLinking C shared library libirobot_create_msgs__rosidl_typesupport_introspection_c.so[0m
+[736.597s] [ 86%] Built target irobot_create_msgs__rosidl_typesupport_introspection_c
+[736.933s] [ 86%] Built target irobot_create_msgs
+[737.295s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[936.833s] [ 86%] Built target irobot_create_msgs__py
+[937.190s] [ 87%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_audio_note_sequence_s.c.o[0m
+[937.200s] [ 87%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_dock_s.c.o[0m
+[937.211s] [ 88%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_drive_arc_s.c.o[0m
+[937.229s] [ 88%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_drive_distance_s.c.o[0m
+[940.781s] [ 88%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_led_animation_s.c.o[0m
+[940.866s] [ 89%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_navigate_to_position_s.c.o[0m
+[940.908s] [ 89%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_rotate_angle_s.c.o[0m
+[940.928s] [ 89%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_undock_s.c.o[0m
+[944.140s] [ 90%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/action/_wall_follow_s.c.o[0m
+[944.144s] [ 90%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_audio_note_s.c.o[0m
+[944.374s] [ 90%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_audio_note_vector_s.c.o[0m
+[944.384s] [ 91%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_button_s.c.o[0m
+[946.594s] [ 91%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_dock_status_s.c.o[0m
+[947.002s] [ 92%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_hazard_detection_s.c.o[0m
+[947.020s] [ 92%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_hazard_detection_vector_s.c.o[0m
+[947.406s] [ 92%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_interface_buttons_s.c.o[0m
+[949.034s] [ 93%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_ir_intensity_s.c.o[0m
+[949.411s] [ 93%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_ir_intensity_vector_s.c.o[0m
+[949.510s] [ 93%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_ir_opcode_s.c.o[0m
+[949.854s] [ 94%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_kidnap_status_s.c.o[0m
+[951.437s] [ 94%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_led_color_s.c.o[0m
+[951.959s] [ 95%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_lightring_leds_s.c.o[0m
+[951.964s] [ 95%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_mouse_s.c.o[0m
+[952.256s] [ 95%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_slip_status_s.c.o[0m
+[953.856s] [ 96%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_stop_status_s.c.o[0m
+[954.445s] [ 96%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_wheel_status_s.c.o[0m
+[954.466s] [ 96%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_wheel_ticks_s.c.o[0m
+[954.645s] [ 97%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/msg/_wheel_vels_s.c.o[0m
+[956.255s] [ 97%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/srv/_e_stop_s.c.o[0m
+[956.990s] [ 97%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/srv/_reset_pose_s.c.o[0m
+[957.011s] [ 98%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_generator_py.dir/rosidl_generator_py/irobot_create_msgs/srv/_robot_power_s.c.o[0m
+[959.397s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/irobot_create_msgs/libirobot_create_msgs__rosidl_generator_py.so[0m
+[960.516s] [ 98%] Built target irobot_create_msgs__rosidl_generator_py
+[960.854s] [ 99%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/irobot_create_msgs/_irobot_create_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[960.870s] [ 99%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/irobot_create_msgs/_irobot_create_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[960.882s] [100%] [32mBuilding C object CMakeFiles/irobot_create_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/irobot_create_msgs/_irobot_create_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[969.420s] [100%] [32m[1mLinking C shared library rosidl_generator_py/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[969.480s] [100%] [32m[1mLinking C shared library rosidl_generator_py/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[969.601s] [100%] [32m[1mLinking C shared library rosidl_generator_py/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[970.875s] [100%] Built target irobot_create_msgs__rosidl_typesupport_introspection_c__pyext
+[970.891s] [100%] Built target irobot_create_msgs__rosidl_typesupport_c__pyext
+[971.027s] [100%] Built target irobot_create_msgs__rosidl_typesupport_fastrtps_c__pyext
+[971.368s] Invoked command in '/home/group1/create3_examples_ws/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/group1/create3_examples_ws/build/irobot_create_msgs -- -j4 -l4
+[983.415s] Invoking command in '/home/group1/create3_examples_ws/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/group1/create3_examples_ws/build/irobot_create_msgs
+[983.538s] -- Install configuration: ""
+[983.559s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/ament_index/resource_index/rosidl_interfaces/irobot_create_msgs
+[983.567s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs
+[983.569s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action
+[983.573s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/drive_distance.h
+[983.577s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/audio_note_sequence.h
+[983.582s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail
+[983.586s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__functions.h
+[983.594s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__functions.h
+[983.600s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__functions.h
+[983.608s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__functions.c
+[983.619s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__struct.h
+[983.624s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__functions.h
+[983.631s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__struct.h
+[983.636s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__struct.h
+[983.642s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__struct.h
+[983.647s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__type_support.h
+[983.653s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__type_support.h
+[983.658s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__struct.h
+[983.664s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__functions.h
+[983.670s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__struct.h
+[983.676s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__type_support.h
+[983.681s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__functions.c
+[983.692s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__type_support.h
+[983.698s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__functions.c
+[983.709s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__struct.h
+[983.714s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__functions.c
+[983.725s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__struct.h
+[983.730s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__type_support.h
+[983.736s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__functions.c
+[983.747s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__type_support.h
+[983.752s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__functions.c
+[983.763s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__functions.h
+[983.770s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__functions.h
+[983.777s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__type_support.h
+[983.782s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__type_support.h
+[983.788s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__type_support.h
+[983.793s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__functions.h
+[983.800s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__struct.h
+[983.805s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__functions.c
+[983.816s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__functions.c
+[983.828s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__functions.c
+[983.839s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__functions.h
+[983.846s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/undock.h
+[983.850s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/dock.h
+[983.855s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/rotate_angle.h
+[983.860s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/led_animation.h
+[983.864s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/navigate_to_position.h
+[983.869s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/wall_follow.h
+[983.874s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/drive_arc.h
+[983.878s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv
+[983.881s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail
+[983.885s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__functions.h
+[983.891s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__type_support.h
+[983.896s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__struct.h
+[983.901s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__type_support.h
+[983.905s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__struct.h
+[983.910s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__functions.h
+[983.916s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__type_support.h
+[983.921s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__functions.c
+[983.929s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__functions.c
+[983.936s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__struct.h
+[983.941s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__functions.c
+[983.948s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__functions.h
+[983.953s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/reset_pose.h
+[983.958s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/robot_power.h
+[983.963s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/e_stop.h
+[983.968s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg
+[983.971s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_ticks.h
+[983.977s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail
+[983.983s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__struct.h
+[983.988s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__struct.h
+[983.994s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__functions.h
+[983.999s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__functions.c
+[984.006s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__type_support.h
+[984.011s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__type_support.h
+[984.016s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__functions.h
+[984.021s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__functions.h
+[984.026s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__type_support.h
+[984.031s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__functions.h
+[984.037s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__struct.h
+[984.042s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__functions.c
+[984.048s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__functions.h
+[984.053s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__functions.c
+[984.060s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__type_support.h
+[984.065s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__struct.h
+[984.071s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__functions.c
+[984.077s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__struct.h
+[984.082s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__functions.c
+[984.089s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__functions.c
+[984.096s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__struct.h
+[984.101s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__functions.c
+[984.108s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__type_support.h
+[984.113s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__type_support.h
+[984.118s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__type_support.h
+[984.123s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__type_support.h
+[984.128s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__type_support.h
+[984.134s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__type_support.h
+[984.139s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__struct.h
+[984.144s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__type_support.h
+[984.149s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__functions.c
+[984.156s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__struct.h
+[984.161s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__functions.h
+[984.166s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__functions.c
+[984.174s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__struct.h
+[984.179s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__type_support.h
+[984.184s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__functions.c
+[984.192s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__functions.c
+[984.199s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__struct.h
+[984.204s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__functions.h
+[984.209s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__functions.h
+[984.215s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__type_support.h
+[984.220s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__type_support.h
+[984.225s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__struct.h
+[984.230s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__struct.h
+[984.235s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__functions.h
+[984.240s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__functions.h
+[984.245s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__functions.c
+[984.252s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__type_support.h
+[984.258s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__type_support.h
+[984.263s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__functions.c
+[984.271s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__functions.h
+[984.275s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__functions.c
+[984.282s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__struct.h
+[984.287s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__struct.h
+[984.292s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__functions.c
+[984.299s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__struct.h
+[984.304s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__functions.h
+[984.309s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__functions.h
+[984.314s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__functions.h
+[984.320s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__type_support.h
+[984.325s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__functions.h
+[984.330s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__functions.h
+[984.336s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__type_support.h
+[984.341s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__type_support.h
+[984.346s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__functions.h
+[984.351s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__functions.c
+[984.358s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__functions.c
+[984.365s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__functions.c
+[984.372s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__struct.h
+[984.376s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__struct.h
+[984.382s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__struct.h
+[984.386s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__struct.h
+[984.392s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__functions.c
+[984.398s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__functions.h
+[984.404s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__functions.h
+[984.409s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/button.h
+[984.414s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/audio_note_vector.h
+[984.418s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/mouse.h
+[984.424s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/interface_buttons.h
+[984.430s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/led_color.h
+[984.435s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/ir_intensity_vector.h
+[984.441s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/hazard_detection.h
+[984.446s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/kidnap_status.h
+[984.452s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_status.h
+[984.458s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/ir_opcode.h
+[984.464s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/audio_note.h
+[984.468s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/lightring_leds.h
+[984.473s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/stop_status.h
+[984.479s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_vels.h
+[984.485s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/ir_intensity.h
+[984.490s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/hazard_detection_vector.h
+[984.496s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/slip_status.h
+[984.502s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/rosidl_generator_c__visibility_control.h
+[984.507s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/dock_status.h
+[984.519s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/library_path.sh
+[984.527s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/library_path.dsv
+[984.536s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_generator_c.so
+[984.575s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_generator_c.so" to ""
+[984.577s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs
+[984.580s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action
+[984.581s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail
+[984.583s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__rosidl_typesupport_fastrtps_c.h
+[984.588s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__rosidl_typesupport_fastrtps_c.h
+[984.596s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__rosidl_typesupport_fastrtps_c.h
+[984.603s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__rosidl_typesupport_fastrtps_c.h
+[984.609s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__rosidl_typesupport_fastrtps_c.h
+[984.617s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__rosidl_typesupport_fastrtps_c.h
+[984.624s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__rosidl_typesupport_fastrtps_c.h
+[984.629s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__rosidl_typesupport_fastrtps_c.h
+[984.636s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__rosidl_typesupport_fastrtps_c.h
+[984.644s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv
+[984.646s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail
+[984.648s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__rosidl_typesupport_fastrtps_c.h
+[984.653s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__rosidl_typesupport_fastrtps_c.h
+[984.659s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__rosidl_typesupport_fastrtps_c.h
+[984.664s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg
+[984.666s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail
+[984.670s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__rosidl_typesupport_fastrtps_c.h
+[984.675s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__rosidl_typesupport_fastrtps_c.h
+[984.681s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__rosidl_typesupport_fastrtps_c.h
+[984.713s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__rosidl_typesupport_fastrtps_c.h
+[984.718s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__rosidl_typesupport_fastrtps_c.h
+[984.724s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__rosidl_typesupport_fastrtps_c.h
+[984.730s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__rosidl_typesupport_fastrtps_c.h
+[984.736s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__rosidl_typesupport_fastrtps_c.h
+[984.741s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__rosidl_typesupport_fastrtps_c.h
+[984.747s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__rosidl_typesupport_fastrtps_c.h
+[984.753s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__rosidl_typesupport_fastrtps_c.h
+[984.758s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__rosidl_typesupport_fastrtps_c.h
+[984.764s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_c.h
+[984.769s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__rosidl_typesupport_fastrtps_c.h
+[984.775s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__rosidl_typesupport_fastrtps_c.h
+[984.781s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__rosidl_typesupport_fastrtps_c.h
+[984.787s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__rosidl_typesupport_fastrtps_c.h
+[984.793s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__rosidl_typesupport_fastrtps_c.h
+[984.798s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__rosidl_typesupport_fastrtps_c.h
+[984.804s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[984.811s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_fastrtps_c.so
+[984.837s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[984.839s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs
+[984.841s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action
+[984.843s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail
+[984.845s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__rosidl_typesupport_introspection_c.h
+[984.850s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__type_support.c
+[984.858s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__rosidl_typesupport_introspection_c.h
+[984.863s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__type_support.c
+[984.870s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__type_support.c
+[984.877s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__rosidl_typesupport_introspection_c.h
+[984.883s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__type_support.c
+[984.891s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__type_support.c
+[984.898s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__type_support.c
+[984.905s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__rosidl_typesupport_introspection_c.h
+[984.911s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__rosidl_typesupport_introspection_c.h
+[984.917s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__rosidl_typesupport_introspection_c.h
+[984.923s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__rosidl_typesupport_introspection_c.h
+[984.929s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__rosidl_typesupport_introspection_c.h
+[984.934s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__type_support.c
+[984.942s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__type_support.c
+[984.949s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__type_support.c
+[984.956s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__rosidl_typesupport_introspection_c.h
+[984.961s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv
+[984.963s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail
+[984.965s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__rosidl_typesupport_introspection_c.h
+[984.972s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__rosidl_typesupport_introspection_c.h
+[984.977s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__rosidl_typesupport_introspection_c.h
+[984.982s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__type_support.c
+[984.988s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__type_support.c
+[984.994s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__type_support.c
+[985.001s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg
+[985.003s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail
+[985.006s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__type_support.c
+[985.011s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__type_support.c
+[985.017s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__rosidl_typesupport_introspection_c.h
+[985.022s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__type_support.c
+[985.028s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__rosidl_typesupport_introspection_c.h
+[985.034s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__rosidl_typesupport_introspection_c.h
+[985.040s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__type_support.c
+[985.045s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__rosidl_typesupport_introspection_c.h
+[985.052s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__rosidl_typesupport_introspection_c.h
+[985.058s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__type_support.c
+[985.064s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__rosidl_typesupport_introspection_c.h
+[985.069s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__rosidl_typesupport_introspection_c.h
+[985.076s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__rosidl_typesupport_introspection_c.h
+[985.080s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__rosidl_typesupport_introspection_c.h
+[985.086s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__type_support.c
+[985.092s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__type_support.c
+[985.097s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__type_support.c
+[985.103s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__rosidl_typesupport_introspection_c.h
+[985.109s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__rosidl_typesupport_introspection_c.h
+[985.115s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__rosidl_typesupport_introspection_c.h
+[985.120s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__type_support.c
+[985.126s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__type_support.c
+[985.132s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__rosidl_typesupport_introspection_c.h
+[985.138s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_c.h
+[985.143s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__type_support.c
+[985.149s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__rosidl_typesupport_introspection_c.h
+[985.155s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__rosidl_typesupport_introspection_c.h
+[985.161s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__type_support.c
+[985.166s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__type_support.c
+[985.172s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__type_support.c
+[985.177s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__rosidl_typesupport_introspection_c.h
+[985.183s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__rosidl_typesupport_introspection_c.h
+[985.189s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__rosidl_typesupport_introspection_c.h
+[985.194s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__type_support.c
+[985.200s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__type_support.c
+[985.206s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__type_support.c
+[985.211s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__type_support.c
+[985.217s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__type_support.c
+[985.222s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[985.229s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_introspection_c.so
+[985.253s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_introspection_c.so" to ""
+[985.255s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_c.so
+[985.274s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_c.so" to ""
+[985.277s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs
+[985.279s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action
+[985.281s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail
+[985.283s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__builder.hpp
+[985.290s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__struct.hpp
+[985.296s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__struct.hpp
+[985.302s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__traits.hpp
+[985.311s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__struct.hpp
+[985.318s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__struct.hpp
+[985.324s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__traits.hpp
+[985.332s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__traits.hpp
+[985.341s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__traits.hpp
+[985.351s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__traits.hpp
+[985.360s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__struct.hpp
+[985.365s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__builder.hpp
+[985.373s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__builder.hpp
+[985.380s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__traits.hpp
+[985.389s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__builder.hpp
+[985.396s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__struct.hpp
+[985.406s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__builder.hpp
+[985.413s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__struct.hpp
+[985.419s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__struct.hpp
+[985.426s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__traits.hpp
+[985.435s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__builder.hpp
+[985.442s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__struct.hpp
+[985.449s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__traits.hpp
+[985.458s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__builder.hpp
+[985.465s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__traits.hpp
+[985.474s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__builder.hpp
+[985.482s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__builder.hpp
+[985.489s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/wall_follow.hpp
+[985.495s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/navigate_to_position.hpp
+[985.501s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/drive_arc.hpp
+[985.507s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/drive_distance.hpp
+[985.513s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/led_animation.hpp
+[985.519s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/dock.hpp
+[985.525s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/undock.hpp
+[985.531s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/audio_note_sequence.hpp
+[985.537s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/rotate_angle.hpp
+[985.542s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv
+[985.544s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail
+[985.547s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__traits.hpp
+[985.554s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__traits.hpp
+[985.560s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__struct.hpp
+[985.565s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__builder.hpp
+[985.571s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__struct.hpp
+[985.578s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__traits.hpp
+[985.584s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__builder.hpp
+[985.590s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__builder.hpp
+[985.597s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__struct.hpp
+[985.602s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/robot_power.hpp
+[985.608s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/e_stop.hpp
+[985.614s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/reset_pose.hpp
+[985.620s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg
+[985.622s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/mouse.hpp
+[985.628s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail
+[985.632s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__builder.hpp
+[985.638s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__struct.hpp
+[985.644s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__builder.hpp
+[985.650s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__builder.hpp
+[985.657s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__traits.hpp
+[985.664s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__traits.hpp
+[985.670s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__builder.hpp
+[985.677s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__traits.hpp
+[985.683s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__traits.hpp
+[985.689s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__struct.hpp
+[985.694s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__builder.hpp
+[985.701s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__struct.hpp
+[985.706s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__struct.hpp
+[985.712s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__struct.hpp
+[985.717s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__builder.hpp
+[985.723s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__struct.hpp
+[985.728s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__builder.hpp
+[985.735s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__struct.hpp
+[985.741s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__traits.hpp
+[985.747s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__builder.hpp
+[985.754s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__traits.hpp
+[985.761s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__traits.hpp
+[985.767s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__traits.hpp
+[985.773s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__struct.hpp
+[985.778s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__struct.hpp
+[985.784s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__traits.hpp
+[985.790s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__builder.hpp
+[985.797s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__builder.hpp
+[985.803s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__traits.hpp
+[985.810s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__builder.hpp
+[985.816s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__traits.hpp
+[985.822s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__traits.hpp
+[985.830s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__builder.hpp
+[985.836s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__struct.hpp
+[985.841s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__struct.hpp
+[985.846s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__builder.hpp
+[985.853s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__builder.hpp
+[985.859s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__traits.hpp
+[985.865s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__traits.hpp
+[985.872s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__builder.hpp
+[985.879s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__struct.hpp
+[985.885s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__traits.hpp
+[985.891s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__builder.hpp
+[985.898s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__builder.hpp
+[985.904s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__struct.hpp
+[985.910s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__traits.hpp
+[985.917s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__traits.hpp
+[985.923s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__struct.hpp
+[985.929s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__traits.hpp
+[985.936s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__struct.hpp
+[985.941s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__traits.hpp
+[985.948s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__struct.hpp
+[985.954s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__struct.hpp
+[985.960s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__builder.hpp
+[985.967s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__struct.hpp
+[985.972s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__builder.hpp
+[985.978s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__struct.hpp
+[985.984s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_ticks.hpp
+[985.990s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/ir_opcode.hpp
+[985.997s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_status.hpp
+[986.002s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/ir_intensity_vector.hpp
+[986.008s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/button.hpp
+[986.014s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_vels.hpp
+[986.020s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/led_color.hpp
+[986.026s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/dock_status.hpp
+[986.032s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/lightring_leds.hpp
+[986.038s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/hazard_detection_vector.hpp
+[986.045s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/ir_intensity.hpp
+[986.050s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/audio_note.hpp
+[986.056s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/kidnap_status.hpp
+[986.062s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/audio_note_vector.hpp
+[986.068s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/slip_status.hpp
+[986.074s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/interface_buttons.hpp
+[986.080s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/stop_status.hpp
+[986.086s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/hazard_detection.hpp
+[986.093s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs
+[986.095s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action
+[986.097s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail
+[986.099s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__rosidl_typesupport_fastrtps_cpp.hpp
+[986.105s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__rosidl_typesupport_fastrtps_cpp.hpp
+[986.114s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__rosidl_typesupport_fastrtps_cpp.hpp
+[986.122s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__rosidl_typesupport_fastrtps_cpp.hpp
+[986.128s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dds_fastrtps
+[986.132s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[986.138s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__rosidl_typesupport_fastrtps_cpp.hpp
+[986.145s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__rosidl_typesupport_fastrtps_cpp.hpp
+[986.151s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__rosidl_typesupport_fastrtps_cpp.hpp
+[986.157s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__rosidl_typesupport_fastrtps_cpp.hpp
+[986.167s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv
+[986.169s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail
+[986.171s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__rosidl_typesupport_fastrtps_cpp.hpp
+[986.176s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/dds_fastrtps
+[986.180s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[986.186s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[986.191s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg
+[986.193s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail
+[986.196s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__rosidl_typesupport_fastrtps_cpp.hpp
+[986.202s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__rosidl_typesupport_fastrtps_cpp.hpp
+[986.207s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__rosidl_typesupport_fastrtps_cpp.hpp
+[986.213s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[986.219s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[986.225s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__rosidl_typesupport_fastrtps_cpp.hpp
+[986.230s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__rosidl_typesupport_fastrtps_cpp.hpp
+[986.236s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dds_fastrtps
+[986.240s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__rosidl_typesupport_fastrtps_cpp.hpp
+[986.246s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__rosidl_typesupport_fastrtps_cpp.hpp
+[986.252s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_cpp.hpp
+[986.257s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__rosidl_typesupport_fastrtps_cpp.hpp
+[986.263s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__rosidl_typesupport_fastrtps_cpp.hpp
+[986.269s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__rosidl_typesupport_fastrtps_cpp.hpp
+[986.274s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__rosidl_typesupport_fastrtps_cpp.hpp
+[986.280s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__rosidl_typesupport_fastrtps_cpp.hpp
+[986.286s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__rosidl_typesupport_fastrtps_cpp.hpp
+[986.293s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__rosidl_typesupport_fastrtps_cpp.hpp
+[986.299s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__rosidl_typesupport_fastrtps_cpp.hpp
+[986.305s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__rosidl_typesupport_fastrtps_cpp.hpp
+[986.310s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[986.318s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_fastrtps_cpp.so
+[986.355s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[986.357s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs
+[986.360s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action
+[986.362s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail
+[986.363s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__rosidl_typesupport_introspection_cpp.hpp
+[986.370s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__type_support.cpp
+[986.378s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__rosidl_typesupport_introspection_cpp.hpp
+[986.386s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__rosidl_typesupport_introspection_cpp.hpp
+[986.393s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__rosidl_typesupport_introspection_cpp.hpp
+[986.401s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/undock__type_support.cpp
+[986.407s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__rosidl_typesupport_introspection_cpp.hpp
+[986.415s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__rosidl_typesupport_introspection_cpp.hpp
+[986.423s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/audio_note_sequence__type_support.cpp
+[986.435s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__rosidl_typesupport_introspection_cpp.hpp
+[986.442s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/led_animation__type_support.cpp
+[986.449s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__type_support.cpp
+[986.460s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/wall_follow__rosidl_typesupport_introspection_cpp.hpp
+[986.468s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/navigate_to_position__type_support.cpp
+[986.475s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__type_support.cpp
+[986.482s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/rotate_angle__rosidl_typesupport_introspection_cpp.hpp
+[986.489s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_distance__type_support.cpp
+[986.497s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/action/detail/dock__type_support.cpp
+[986.506s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv
+[986.508s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail
+[986.510s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__type_support.cpp
+[986.516s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__type_support.cpp
+[986.522s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__type_support.cpp
+[986.528s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/robot_power__rosidl_typesupport_introspection_cpp.hpp
+[986.535s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/reset_pose__rosidl_typesupport_introspection_cpp.hpp
+[986.542s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/srv/detail/e_stop__rosidl_typesupport_introspection_cpp.hpp
+[986.548s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg
+[986.550s] -- Up-to-date: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail
+[986.554s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__rosidl_typesupport_introspection_cpp.hpp
+[986.561s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__rosidl_typesupport_introspection_cpp.hpp
+[986.569s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__rosidl_typesupport_introspection_cpp.hpp
+[986.575s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__type_support.cpp
+[986.581s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__rosidl_typesupport_introspection_cpp.hpp
+[986.589s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__type_support.cpp
+[986.594s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_vels__type_support.cpp
+[986.600s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__rosidl_typesupport_introspection_cpp.hpp
+[986.608s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__rosidl_typesupport_introspection_cpp.hpp
+[986.615s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__rosidl_typesupport_introspection_cpp.hpp
+[986.621s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note_vector__type_support.cpp
+[986.627s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__type_support.cpp
+[986.633s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/audio_note__rosidl_typesupport_introspection_cpp.hpp
+[986.640s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__rosidl_typesupport_introspection_cpp.hpp
+[986.647s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__type_support.cpp
+[986.653s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__type_support.cpp
+[986.658s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_status__type_support.cpp
+[986.664s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__rosidl_typesupport_introspection_cpp.hpp
+[986.671s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__type_support.cpp
+[986.676s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection__type_support.cpp
+[986.682s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__type_support.cpp
+[986.688s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/hazard_detection_vector__rosidl_typesupport_introspection_cpp.hpp
+[986.695s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__rosidl_typesupport_introspection_cpp.hpp
+[986.702s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity_vector__rosidl_typesupport_introspection_cpp.hpp
+[986.709s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/mouse__type_support.cpp
+[986.714s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__type_support.cpp
+[986.720s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/kidnap_status__rosidl_typesupport_introspection_cpp.hpp
+[986.728s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__rosidl_typesupport_introspection_cpp.hpp
+[986.734s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_intensity__type_support.cpp
+[986.740s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_cpp.hpp
+[986.748s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/slip_status__rosidl_typesupport_introspection_cpp.hpp
+[986.755s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/ir_opcode__type_support.cpp
+[986.760s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/button__type_support.cpp
+[986.766s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/interface_buttons__type_support.cpp
+[986.772s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/dock_status__type_support.cpp
+[986.778s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/lightring_leds__rosidl_typesupport_introspection_cpp.hpp
+[986.785s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/led_color__rosidl_typesupport_introspection_cpp.hpp
+[986.792s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/include/irobot_create_msgs/irobot_create_msgs/msg/detail/stop_status__type_support.cpp
+[986.799s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_introspection_cpp.so
+[986.833s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[986.836s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_cpp.so
+[986.858s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_typesupport_cpp.so" to ""
+[986.861s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/pythonpath.sh
+[986.889s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/pythonpath.dsv
+[986.898s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs-2.1.0-py3.10.egg-info
+[986.904s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs-2.1.0-py3.10.egg-info/dependency_links.txt
+[986.911s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs-2.1.0-py3.10.egg-info/top_level.txt
+[986.917s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs-2.1.0-py3.10.egg-info/SOURCES.txt
+[986.924s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs-2.1.0-py3.10.egg-info/PKG-INFO
+[986.931s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs
+[986.934s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/_irobot_create_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[986.956s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action
+[986.960s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_led_animation.py
+[986.967s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_led_animation_s.c
+[986.972s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_wall_follow_s.c
+[986.978s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_drive_arc_s.c
+[986.984s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_drive_distance.py
+[986.990s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_undock_s.c
+[986.997s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_audio_note_sequence.py
+[987.004s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_navigate_to_position_s.c
+[987.010s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_rotate_angle_s.c
+[987.016s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_wall_follow.py
+[987.022s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_navigate_to_position.py
+[987.032s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_drive_arc.py
+[987.036s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/__init__.py
+[987.041s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_dock_s.c
+[987.047s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_audio_note_sequence_s.c
+[987.053s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_dock.py
+[987.060s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_drive_distance_s.c
+[987.066s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_rotate_angle.py
+[987.072s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_undock.py
+[987.079s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/libirobot_create_msgs__rosidl_generator_py.so
+[987.094s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/_irobot_create_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[987.117s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[987.131s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/_irobot_create_msgs_s.ep.rosidl_typesupport_c.c
+[987.152s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv
+[987.155s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_robot_power.py
+[987.161s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_reset_pose_s.c
+[987.165s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_e_stop.py
+[987.171s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_robot_power_s.c
+[987.175s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_e_stop_s.c
+[987.180s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_reset_pose.py
+[987.185s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/__init__.py
+[987.190s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg
+[987.195s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_vels_s.c
+[987.200s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_hazard_detection_vector_s.c
+[987.205s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_audio_note.py
+[987.210s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_opcode.py
+[987.215s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_audio_note_s.c
+[987.220s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_lightring_leds.py
+[987.225s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_kidnap_status.py
+[987.230s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_hazard_detection_vector.py
+[987.235s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_interface_buttons_s.c
+[987.240s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_status.py
+[987.245s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_opcode_s.c
+[987.250s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_led_color_s.c
+[987.255s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_intensity.py
+[987.260s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_audio_note_vector_s.c
+[987.266s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_button_s.c
+[987.270s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_interface_buttons.py
+[987.276s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_intensity_s.c
+[987.281s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_hazard_detection_s.c
+[987.286s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_kidnap_status_s.c
+[987.291s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_mouse_s.c
+[987.296s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_ticks.py
+[987.301s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_hazard_detection.py
+[987.306s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_status_s.c
+[987.311s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_ticks_s.c
+[987.316s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_vels.py
+[987.321s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_intensity_vector.py
+[987.326s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_slip_status_s.c
+[987.331s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_mouse.py
+[987.336s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_stop_status.py
+[987.341s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_dock_status.py
+[987.346s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_stop_status_s.c
+[987.351s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_dock_status_s.c
+[987.356s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/__init__.py
+[987.360s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_lightring_leds_s.c
+[987.366s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_led_color.py
+[987.371s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_audio_note_vector.py
+[987.376s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_intensity_vector_s.c
+[987.381s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_slip_status.py
+[987.386s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_button.py
+[987.392s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[987.406s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/__init__.py
+[987.411s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[989.284s] Listing '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs'...
+[989.286s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/__init__.py'...
+[989.288s] Listing '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action'...
+[989.290s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/__init__.py'...
+[989.291s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_audio_note_sequence.py'...
+[989.293s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_dock.py'...
+[989.295s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_drive_arc.py'...
+[989.297s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_drive_distance.py'...
+[989.299s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_led_animation.py'...
+[989.301s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_navigate_to_position.py'...
+[989.302s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_rotate_angle.py'...
+[989.304s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_undock.py'...
+[989.306s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/action/_wall_follow.py'...
+[989.308s] Listing '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg'...
+[989.310s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/__init__.py'...
+[989.311s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_audio_note.py'...
+[989.313s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_audio_note_vector.py'...
+[989.315s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_button.py'...
+[989.317s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_dock_status.py'...
+[989.318s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_hazard_detection.py'...
+[989.320s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_hazard_detection_vector.py'...
+[989.322s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_interface_buttons.py'...
+[989.326s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_intensity.py'...
+[989.328s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_intensity_vector.py'...
+[989.329s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_ir_opcode.py'...
+[989.331s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_kidnap_status.py'...
+[989.333s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_led_color.py'...
+[989.334s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_lightring_leds.py'...
+[989.336s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_mouse.py'...
+[989.338s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_slip_status.py'...
+[989.340s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_stop_status.py'...
+[989.341s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_status.py'...
+[989.343s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_ticks.py'...
+[989.345s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/msg/_wheel_vels.py'...
+[989.346s] Listing '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv'...
+[989.348s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/__init__.py'...
+[989.350s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_e_stop.py'...
+[989.352s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_reset_pose.py'...
+[989.354s] Compiling '/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/srv/_robot_power.py'...
+[989.386s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[989.408s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[989.416s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[989.437s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[989.445s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[989.466s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages/irobot_create_msgs/irobot_create_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[989.468s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_generator_py.so
+[989.493s] -- Set runtime path of "/home/group1/create3_examples_ws/install/irobot_create_msgs/lib/libirobot_create_msgs__rosidl_generator_py.so" to ""
+[989.496s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/AudioNoteSequence.idl
+[989.503s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/Dock.idl
+[989.509s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/DriveArc.idl
+[989.515s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/DriveDistance.idl
+[989.521s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/LedAnimation.idl
+[989.527s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/NavigateToPosition.idl
+[989.533s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/RotateAngle.idl
+[989.539s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/Undock.idl
+[989.546s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/WallFollow.idl
+[989.553s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/AudioNote.idl
+[989.558s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/AudioNoteVector.idl
+[989.565s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/Button.idl
+[989.571s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/DockStatus.idl
+[989.577s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/HazardDetection.idl
+[989.583s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/HazardDetectionVector.idl
+[989.590s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/InterfaceButtons.idl
+[989.597s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/IrIntensity.idl
+[989.603s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/IrIntensityVector.idl
+[989.608s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/IrOpcode.idl
+[989.614s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/KidnapStatus.idl
+[989.620s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/LedColor.idl
+[989.627s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/LightringLeds.idl
+[989.633s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/Mouse.idl
+[989.639s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/SlipStatus.idl
+[989.645s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/StopStatus.idl
+[989.652s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/WheelStatus.idl
+[989.657s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/WheelTicks.idl
+[989.664s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/WheelVels.idl
+[989.670s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/EStop.idl
+[989.677s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/ResetPose.idl
+[989.682s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/RobotPower.idl
+[989.717s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/AudioNoteSequence.action
+[989.732s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/Dock.action
+[989.738s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/DriveArc.action
+[989.745s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/DriveDistance.action
+[989.752s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/LedAnimation.action
+[989.759s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/NavigateToPosition.action
+[989.767s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/RotateAngle.action
+[989.773s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/Undock.action
+[989.781s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/action/WallFollow.action
+[989.787s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/AudioNote.msg
+[989.794s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/AudioNoteVector.msg
+[989.801s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/Button.msg
+[989.808s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/DockStatus.msg
+[989.815s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/HazardDetection.msg
+[989.822s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/HazardDetectionVector.msg
+[989.830s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/InterfaceButtons.msg
+[989.837s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/IrIntensity.msg
+[989.844s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/IrIntensityVector.msg
+[989.851s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/IrOpcode.msg
+[989.858s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/KidnapStatus.msg
+[989.865s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/LedColor.msg
+[989.871s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/LightringLeds.msg
+[989.879s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/Mouse.msg
+[989.886s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/SlipStatus.msg
+[989.893s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/StopStatus.msg
+[989.900s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/WheelStatus.msg
+[989.907s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/WheelTicks.msg
+[989.913s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/msg/WheelVels.msg
+[989.921s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/EStop.srv
+[989.928s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/EStop_Request.msg
+[989.936s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/EStop_Response.msg
+[989.942s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/ResetPose.srv
+[989.950s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/ResetPose_Request.msg
+[989.957s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/ResetPose_Response.msg
+[989.965s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/RobotPower.srv
+[989.971s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/RobotPower_Request.msg
+[989.979s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/srv/RobotPower_Response.msg
+[989.989s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/ament_index/resource_index/package_run_dependencies/irobot_create_msgs
+[990.000s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/ament_index/resource_index/parent_prefix_path/irobot_create_msgs
+[990.011s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/ament_prefix_path.sh
+[990.019s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/ament_prefix_path.dsv
+[990.028s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/path.sh
+[990.035s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/environment/path.dsv
+[990.042s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/local_setup.bash
+[990.049s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/local_setup.sh
+[990.056s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/local_setup.zsh
+[990.064s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/local_setup.dsv
+[990.071s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/package.dsv
+[990.081s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/ament_index/resource_index/packages/irobot_create_msgs
+[990.093s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_generator_cExport.cmake
+[990.101s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_generator_cExport-noconfig.cmake
+[990.110s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[990.120s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[990.129s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_introspection_cExport.cmake
+[990.137s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[990.146s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_cExport.cmake
+[990.154s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[990.163s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_generator_cppExport.cmake
+[990.173s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[990.181s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[990.191s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[990.200s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[990.209s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_cppExport.cmake
+[990.217s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[990.226s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_generator_pyExport.cmake
+[990.235s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/export_irobot_create_msgs__rosidl_generator_pyExport-noconfig.cmake
+[990.243s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/rosidl_cmake-extras.cmake
+[990.252s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[990.261s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[990.270s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[990.280s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[990.288s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[990.295s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[990.304s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgsConfig.cmake
+[990.311s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake/irobot_create_msgsConfig-version.cmake
+[990.318s] -- Installing: /home/group1/create3_examples_ws/install/irobot_create_msgs/share/irobot_create_msgs/package.xml
+[990.379s] Invoked command in '/home/group1/create3_examples_ws/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/group1/create3_examples_ws/build/irobot_create_msgs

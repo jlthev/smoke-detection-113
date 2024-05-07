@@ -1,0 +1,21 @@
+[22.447s] Invoking command in '/home/group1/create3_examples_ws/src/create3_examples/create3_examples_py': AMENT_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs LD_LIBRARY_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/group1/create3_examples_ws/build/create3_examples_py/prefix_override:/home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/group1/create3_examples_ws/build/create3_examples_py/build install --record /home/group1/create3_examples_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data
+[102.256s] running egg_info
+[102.506s] writing ../../../build/create3_examples_py/create3_examples_py.egg-info/PKG-INFO
+[102.509s] writing dependency_links to ../../../build/create3_examples_py/create3_examples_py.egg-info/dependency_links.txt
+[102.511s] writing entry points to ../../../build/create3_examples_py/create3_examples_py.egg-info/entry_points.txt
+[102.513s] writing requirements to ../../../build/create3_examples_py/create3_examples_py.egg-info/requires.txt
+[102.515s] writing top-level names to ../../../build/create3_examples_py/create3_examples_py.egg-info/top_level.txt
+[102.518s] reading manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[102.520s] writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[102.522s] running build
+[102.524s] running build_py
+[102.526s] running install
+[102.528s] running install_lib
+[102.530s] running install_data
+[102.532s] running install_egg_info
+[102.556s] removing '/home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info' (and everything under it)
+[102.568s] Copying ../../../build/create3_examples_py/create3_examples_py.egg-info to /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info
+[102.571s] running install_scripts
+[107.899s] Installing create3_dance script to /home/group1/create3_examples_ws/install/create3_examples_py/lib/create3_examples_py
+[107.913s] writing list of installed files to '/home/group1/create3_examples_ws/build/create3_examples_py/install.log'
+[111.325s] Invoked command in '/home/group1/create3_examples_ws/src/create3_examples/create3_examples_py' returned '0': AMENT_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs LD_LIBRARY_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/group1/create3_examples_ws/build/create3_examples_py/prefix_override:/home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/group1/create3_examples_ws/build/create3_examples_py/build install --record /home/group1/create3_examples_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[17.531s] Invoking command in '/home/group1/create3_examples_ws/src/py_pubsub': PYTHONPATH=/home/group1/create3_examples_ws/build/py_pubsub/prefix_override:/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/group1/create3_examples_ws/build/py_pubsub/build install --record /home/group1/create3_examples_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[23.911s] running egg_info
+[23.922s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[23.927s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[23.932s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[23.935s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[23.937s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[23.958s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[23.970s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[23.974s] running build
+[23.976s] running build_py
+[23.981s] copying py_pubsub/publisher_member_function.py -> /home/group1/create3_examples_ws/build/py_pubsub/build/lib/py_pubsub
+[23.992s] running install
+[23.997s] running install_lib
+[24.011s] copying /home/group1/create3_examples_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[24.031s] byte-compiling /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[24.043s] running install_data
+[24.046s] running install_egg_info
+[24.078s] removing '/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[24.088s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[24.117s] running install_scripts
+[24.569s] Installing listener script to /home/group1/create3_examples_ws/install/py_pubsub/lib/py_pubsub
+[24.577s] Installing talker script to /home/group1/create3_examples_ws/install/py_pubsub/lib/py_pubsub
+[24.583s] writing list of installed files to '/home/group1/create3_examples_ws/build/py_pubsub/install.log'
+[25.110s] Invoked command in '/home/group1/create3_examples_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/group1/create3_examples_ws/build/py_pubsub/prefix_override:/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/group1/create3_examples_ws/build/py_pubsub/build install --record /home/group1/create3_examples_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

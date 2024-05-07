@@ -1,0 +1,10 @@
+[  8%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/dock-behavior.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/drive-straight-behavior.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/reflex-behavior.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/rotate-behavior.cpp.o[0m
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:90: CMakeFiles/create3_coverage_core.dir/src/behaviors/drive-straight-behavior.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:76: CMakeFiles/create3_coverage_core.dir/src/behaviors/dock-behavior.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:104: CMakeFiles/create3_coverage_core.dir/src/behaviors/reflex-behavior.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:118: CMakeFiles/create3_coverage_core.dir/src/behaviors/rotate-behavior.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/create3_coverage_core.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

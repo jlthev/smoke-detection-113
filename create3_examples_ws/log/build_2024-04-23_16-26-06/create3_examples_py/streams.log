@@ -1,0 +1,45 @@
+[17.537s] Invoking command in '/home/group1/create3_examples_ws/src/create3_examples/create3_examples_py': AMENT_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs LD_LIBRARY_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/group1/create3_examples_ws/build/create3_examples_py/prefix_override:/home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/group1/create3_examples_ws/build/create3_examples_py/build install --record /home/group1/create3_examples_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data
+[23.710s] running egg_info
+[23.721s] creating ../../../build/create3_examples_py/create3_examples_py.egg-info
+[23.731s] writing ../../../build/create3_examples_py/create3_examples_py.egg-info/PKG-INFO
+[23.747s] writing dependency_links to ../../../build/create3_examples_py/create3_examples_py.egg-info/dependency_links.txt
+[23.756s] writing entry points to ../../../build/create3_examples_py/create3_examples_py.egg-info/entry_points.txt
+[23.763s] writing requirements to ../../../build/create3_examples_py/create3_examples_py.egg-info/requires.txt
+[23.770s] writing top-level names to ../../../build/create3_examples_py/create3_examples_py.egg-info/top_level.txt
+[23.783s] writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[23.822s] reading manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[23.842s] writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[23.850s] running build
+[23.853s] running build_py
+[23.856s] creating /home/group1/create3_examples_ws/build/create3_examples_py/build
+[23.869s] creating /home/group1/create3_examples_ws/build/create3_examples_py/build/lib
+[23.871s] creating /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py
+[23.874s] copying create3_examples_py/__init__.py -> /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py
+[23.881s] creating /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[23.883s] copying create3_examples_py/dance/dance_choreograph.py -> /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[23.893s] copying create3_examples_py/dance/__init__.py -> /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[23.902s] copying create3_examples_py/dance/create3_dance.py -> /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/dance
+[23.921s] running install
+[23.926s] running install_lib
+[23.940s] creating /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py
+[23.956s] creating /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[23.979s] copying /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/dance/dance_choreograph.py -> /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[23.986s] copying /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/dance/__init__.py -> /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[23.988s] copying /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/dance/create3_dance.py -> /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance
+[24.000s] copying /home/group1/create3_examples_ws/build/create3_examples_py/build/lib/create3_examples_py/__init__.py -> /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py
+[24.002s] byte-compiling /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/dance_choreograph.py to dance_choreograph.cpython-310.pyc
+[24.013s] byte-compiling /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/__init__.py to __init__.cpython-310.pyc
+[24.015s] byte-compiling /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/create3_dance.py to create3_dance.cpython-310.pyc
+[24.023s] byte-compiling /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/__init__.py to __init__.cpython-310.pyc
+[24.030s] running install_data
+[24.043s] creating /home/group1/create3_examples_ws/install/create3_examples_py/share/ament_index
+[24.045s] creating /home/group1/create3_examples_ws/install/create3_examples_py/share/ament_index/resource_index
+[24.047s] creating /home/group1/create3_examples_ws/install/create3_examples_py/share/ament_index/resource_index/packages
+[24.050s] copying resource/create3_examples_py -> /home/group1/create3_examples_ws/install/create3_examples_py/share/ament_index/resource_index/packages
+[24.052s] copying package.xml -> /home/group1/create3_examples_ws/install/create3_examples_py/share/create3_examples_py
+[24.054s] running install_egg_info
+[24.092s] Copying ../../../build/create3_examples_py/create3_examples_py.egg-info to /home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info
+[24.123s] running install_scripts
+[24.512s] Installing create3_dance script to /home/group1/create3_examples_ws/install/create3_examples_py/lib/create3_examples_py
+[24.521s] writing list of installed files to '/home/group1/create3_examples_ws/build/create3_examples_py/install.log'
+[25.127s] Invoked command in '/home/group1/create3_examples_ws/src/create3_examples/create3_examples_py' returned '0': AMENT_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs LD_LIBRARY_PATH=/home/group1/create3_examples_ws/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/group1/create3_examples_ws/build/create3_examples_py/prefix_override:/home/group1/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/home/group1/create3_examples_ws/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/group1/create3_examples_ws/build/create3_examples_py/build install --record /home/group1/create3_examples_ws/build/create3_examples_py/install.log --single-version-externally-managed install_data
