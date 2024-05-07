@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'talker = py_pubsub.pubserial:main',
-            'listener = py_pubsub.subscriber_member_function:main',
+            # 'listener = py_pubsub.subscriber_member_function:main',
+            'listener = py_pubsub.driver:main',
             #'driver = folder_name.filename:function',
                 #If we run ros2 run py_pubsub driver, it will execute driver.py
         ],
