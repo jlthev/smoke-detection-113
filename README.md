@@ -20,9 +20,9 @@ Follow the tutorial on the [create3](https://edu.irobot.com/learning-library/con
 WIP
 **
 
-## ❖ ROS2
-Introduction to ROS2 Nodes and the pubsub example: [ROS2 Documentation](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html) 
-Create3Examples: [GitHub Repo](https://github.com/iRobotEducation/create3_examples)
+## ❖ ROS2 
+   - Introduction to ROS2 Nodes and the pubsub example: [ROS2 Documentation](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html)
+   - Create3Examples: [GitHub Repo](https://github.com/iRobotEducation/create3_examples)
 
 ## ❖ BLE Connectivity
 1. Identify irobot3 MAC address
