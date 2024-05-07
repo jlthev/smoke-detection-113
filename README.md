@@ -4,14 +4,14 @@ The Following Program demonstrates a fully autonomous irobot that can traverse a
 
 ## ❖ Requirements
 1. Software Requirements
-   -irobot edu sdk. The link provided has the library. [iRobot® Education Python® SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk?tab=readme-ov-file#iroboteducation-python-sdk)
-   -[bleak](https://bleak.readthedocs.io/en/latest/)
-   -[pySerial] `pip install pyserial`
+   - irobot edu sdk. The link provided has the library. [iRobot® Education Python® SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk?tab=readme-ov-file#iroboteducation-python-sdk)
+   - [bleak](https://bleak.readthedocs.io/en/latest/)
+   - [pySerial] `pip install pyserial`
 
 3. Hardware Requirements
-   -Raspberry PI Ver. 3B+
-   -Arduino Uno R1
-   -iRobot
+   - Raspberry PI Ver. 3B+
+   - Arduino Uno R1
+   - iRobot
 
 ## ❖ 3B+ Integration with irobot
 
