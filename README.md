@@ -26,11 +26,11 @@ WIP
   
 ## ❖ 3D Modeling Gas Sensor Mounting
 1. Onshape Software
-   *Version 1.0*
-      - Base platform for gas sensor (35mm x 24mm x 1mm).
-      - Vertical beam perpendicular to the platform on the left edge (1mm x 24mm) extruded upward (9.532mm).
-      - Horizontal beam perpendicular to vertical beam, and parallel with platform, on top of the vertical beam (2mm x 24mm x 1mm).
-      - On the bottom of the base platform circle centered at (17.5mm x 12mm) with radius (1.375mm), extruded downward (20mm).
+      - *Version 1.0*
+         - Base platform for gas sensor (35mm x 24mm x 1mm).
+         - Vertical beam perpendicular to the platform on the left edge (1mm x 24mm) extruded upward (9.532mm).
+         - Horizontal beam perpendicular to vertical beam, and parallel with platform, on top of the vertical beam (2mm x 24mm x 1mm).
+         - On the bottom of the base platform circle centered at (17.5mm x 12mm) with radius (1.375mm), extruded downward (20mm).
    *Version 2.0*
       - Base platform for gas sensor (35mm x 24mm x 1mm).
       - Vertical beam perpendicular to the platform on the left edge (1mm x 24mm) extruded upward (9.532mm).
