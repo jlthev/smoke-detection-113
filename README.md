@@ -1,17 +1,17 @@
 ## ❖ Smoke Detection iRobot
 
-The Following Program demonstrates a fully autonomous irobot that can traverse a finite space until a gas particulate is detected. 
+The Following Program demonstrates a fully autonomous iRobot that can traverse a finite space until a gas particulate is detected. 
 
 ## ❖ Requirements
 1. Software Requirements
-   - irobot edu sdk. The link provided has the library. [iRobot® Education Python® SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk?tab=readme-ov-file#iroboteducation-python-sdk)
+   - iRobot edu sdk. The link provided has the library. [iRobot® Education Python® SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk?tab=readme-ov-file#iroboteducation-python-sdk)
    - Bluetooth Library (BLE): [bleak](https://bleak.readthedocs.io/en/latest/)
-   - pySerial(Serialized Input to irobot & 3B+): `pip install pyserial`
+   - pySerial(Serialized Input to iRobot & RPi 3B+): `pip install pyserial`
 
 2. Hardware Requirements
    - [Raspberry PI Ver. 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) or equil
    - [Arduino Uno R1](https://store-usa.arduino.cc/products/arduino-uno-rev3) or equil
-   - [iRobot Create](https://edu.irobot.com/shop/coding-robots/create?variant=269697) or equil
+   - [iRobot Create3](https://edu.irobot.com/shop/coding-robots/create?variant=269697) or equil
 
 ## ❖ 3B+ Integration with irobot
 
@@ -21,7 +21,7 @@ WIP
 **
 
 ## ❖ BLE Connectivity
-1. Identify irobot3 MAC address
+1. Identify iRobot MAC address
    - `Bluetooth(address="#irobot BLE MAC address")`
   
 ## ❖ 3D Modeling Gas Sensor Mounting
