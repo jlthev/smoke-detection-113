@@ -5,7 +5,8 @@
 # Written by Joseph Loeffler
 # Last update - 5/6/24
 
-from subprocess import call, check_output
+#subprocess call, check_output
+from subprocess import check_output
 from time import sleep
 
 temp_range = []

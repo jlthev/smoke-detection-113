@@ -1,0 +1,3 @@
+source;share/create3_coverage/environment/ament_prefix_path.sh
+source;share/create3_coverage/environment/library_path.sh
+source;share/create3_coverage/environment/path.sh

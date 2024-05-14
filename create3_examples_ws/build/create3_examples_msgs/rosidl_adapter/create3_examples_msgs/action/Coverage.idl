@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from create3_examples_msgs/action/Coverage.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module create3_examples_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Coverage_Goal {
+      @verbatim (language="comment", text=
+        "The robot will explore the environment for `explore_duration` time." "\n"
+        "After that, it will try to dock as soon as it sees the docking station." "\n"
+        "The `max_runtime` duration defines when the behavior should end regardless of whether" "\n"
+        "the dock has been found or not.")
+      builtin_interfaces::msg::Duration explore_duration;
+
+      builtin_interfaces::msg::Duration max_runtime;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Coverage_Result {
+      boolean success;
+
+      boolean is_docked;
+
+      builtin_interfaces::msg::Duration duration;
+    };
+    module Coverage_Feedback_Constants {
+      const int32 DOCK = 0;
+      const int32 DRIVE_STRAIGHT = 1;
+      const int32 ROTATE = 2;
+      const int32 SPIRAL = 3;
+      const int32 UNDOCK = 4;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Coverage_Feedback {
+      int32 current_behavior;
+    };
+  };
+};

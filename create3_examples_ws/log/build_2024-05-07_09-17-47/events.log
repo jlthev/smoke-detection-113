@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.002887] (-) JobUnselected: {'identifier': 'create3_coverage'}
+[0.003898] (-) JobUnselected: {'identifier': 'create3_examples_msgs'}
+[0.005367] (-) JobUnselected: {'identifier': 'create3_examples_py'}
+[0.006155] (-) JobUnselected: {'identifier': 'create3_lidar_slam'}
+[0.006763] (-) JobUnselected: {'identifier': 'create3_republisher'}
+[0.007244] (-) JobUnselected: {'identifier': 'create3_teleop'}
+[0.008052] (-) JobUnselected: {'identifier': 'irobot_create_msgs'}
+[0.008580] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.009386] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.091634] (-) TimerEvent: {}
+[0.195100] (-) TimerEvent: {}
+[0.297074] (-) TimerEvent: {}
+[0.399878] (-) TimerEvent: {}
+[0.504508] (-) TimerEvent: {}
+[0.606862] (-) TimerEvent: {}
+[0.708783] (-) TimerEvent: {}
+[0.810925] (-) TimerEvent: {}
+[0.913085] (-) TimerEvent: {}
+[1.015393] (-) TimerEvent: {}
+[1.118109] (-) TimerEvent: {}
+[1.220634] (-) TimerEvent: {}
+[1.322672] (-) TimerEvent: {}
+[1.424988] (-) TimerEvent: {}
+[1.527239] (-) TimerEvent: {}
+[1.629109] (-) TimerEvent: {}
+[1.731387] (-) TimerEvent: {}
+[1.833396] (-) TimerEvent: {}
+[1.935584] (-) TimerEvent: {}
+[2.037528] (-) TimerEvent: {}
+[2.139537] (-) TimerEvent: {}
+[2.241470] (-) TimerEvent: {}
+[2.343457] (-) TimerEvent: {}
+[2.445378] (-) TimerEvent: {}
+[2.547436] (-) TimerEvent: {}
+[2.649424] (-) TimerEvent: {}
+[2.751730] (-) TimerEvent: {}
+[2.853719] (-) TimerEvent: {}
+[2.955869] (-) TimerEvent: {}
+[3.058041] (-) TimerEvent: {}
+[3.160267] (-) TimerEvent: {}
+[3.262842] (-) TimerEvent: {}
+[3.364785] (-) TimerEvent: {}
+[3.466823] (-) TimerEvent: {}
+[3.568985] (-) TimerEvent: {}
+[3.671228] (-) TimerEvent: {}
+[3.773298] (-) TimerEvent: {}
+[3.875252] (-) TimerEvent: {}
+[3.977298] (-) TimerEvent: {}
+[4.079332] (-) TimerEvent: {}
+[4.181388] (-) TimerEvent: {}
+[4.283585] (-) TimerEvent: {}
+[4.385671] (-) TimerEvent: {}
+[4.488396] (-) TimerEvent: {}
+[4.590600] (-) TimerEvent: {}
+[4.692524] (-) TimerEvent: {}
+[4.794765] (-) TimerEvent: {}
+[4.896711] (-) TimerEvent: {}
+[4.998834] (-) TimerEvent: {}
+[5.100741] (-) TimerEvent: {}
+[5.202738] (-) TimerEvent: {}
+[5.304686] (-) TimerEvent: {}
+[5.406718] (-) TimerEvent: {}
+[5.508752] (-) TimerEvent: {}
+[5.611111] (-) TimerEvent: {}
+[5.713449] (-) TimerEvent: {}
+[5.817042] (-) TimerEvent: {}
+[5.922802] (-) TimerEvent: {}
+[6.027375] (-) TimerEvent: {}
+[6.129695] (-) TimerEvent: {}
+[6.232082] (-) TimerEvent: {}
+[6.334436] (-) TimerEvent: {}
+[6.436711] (-) TimerEvent: {}
+[6.538788] (-) TimerEvent: {}
+[6.641324] (-) TimerEvent: {}
+[6.743466] (-) TimerEvent: {}
+[6.845599] (-) TimerEvent: {}
+[6.947659] (-) TimerEvent: {}
+[7.049633] (-) TimerEvent: {}
+[7.151808] (-) TimerEvent: {}
+[7.253892] (-) TimerEvent: {}
+[7.356124] (-) TimerEvent: {}
+[7.458221] (-) TimerEvent: {}
+[7.560811] (-) TimerEvent: {}
+[7.662899] (-) TimerEvent: {}
+[7.764903] (-) TimerEvent: {}
+[7.866846] (-) TimerEvent: {}
+[7.969051] (-) TimerEvent: {}
+[8.071196] (-) TimerEvent: {}
+[8.172985] (-) TimerEvent: {}
+[8.275177] (-) TimerEvent: {}
+[8.377137] (-) TimerEvent: {}
+[8.479044] (-) TimerEvent: {}
+[8.581004] (-) TimerEvent: {}
+[8.683208] (-) TimerEvent: {}
+[8.785718] (-) TimerEvent: {}
+[8.887917] (-) TimerEvent: {}
+[8.989888] (-) TimerEvent: {}
+[9.092068] (-) TimerEvent: {}
+[9.194180] (-) TimerEvent: {}
+[9.296201] (-) TimerEvent: {}
+[9.397620] (-) TimerEvent: {}
+[9.499635] (-) TimerEvent: {}
+[9.601648] (-) TimerEvent: {}
+[9.703790] (-) TimerEvent: {}
+[9.805830] (-) TimerEvent: {}
+[9.907962] (-) TimerEvent: {}
+[10.009969] (-) TimerEvent: {}
+[10.112026] (-) TimerEvent: {}
+[10.214069] (-) TimerEvent: {}
+[10.316214] (-) TimerEvent: {}
+[10.418350] (-) TimerEvent: {}
+[10.520566] (-) TimerEvent: {}
+[10.622748] (-) TimerEvent: {}
+[10.724767] (-) TimerEvent: {}
+[10.826790] (-) TimerEvent: {}
+[10.928694] (-) TimerEvent: {}
+[11.030770] (-) TimerEvent: {}
+[11.133193] (-) TimerEvent: {}
+[11.235684] (-) TimerEvent: {}
+[11.337758] (-) TimerEvent: {}
+[11.440195] (-) TimerEvent: {}
+[11.542697] (-) TimerEvent: {}
+[11.644840] (-) TimerEvent: {}
+[11.746971] (-) TimerEvent: {}
+[11.849509] (-) TimerEvent: {}
+[11.951492] (-) TimerEvent: {}
+[12.053810] (-) TimerEvent: {}
+[12.160569] (-) TimerEvent: {}
+[12.263046] (-) TimerEvent: {}
+[12.365344] (-) TimerEvent: {}
+[12.469384] (-) TimerEvent: {}
+[12.572060] (-) TimerEvent: {}
+[12.675044] (-) TimerEvent: {}
+[12.777765] (-) TimerEvent: {}
+[12.880178] (-) TimerEvent: {}
+[12.982801] (-) TimerEvent: {}
+[13.055147] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/group1/create3_examples_ws/build/py_pubsub/build', 'install', '--record', '/home/group1/create3_examples_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group1/create3_examples_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group1', 'SSH_CLIENT': '10.250.106.239 55860 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/group1/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/group1/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/group1', 'OLDPWD': '/home/group1', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2c4b428b-af88-401a-990c-d6ecc7cb63c3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/group1/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/group1/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'group1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/group1/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/group1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9479ba527b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/group1/create3_examples_ws/build/py_pubsub', 'SSH_CONNECTION': '10.250.106.239 55860 10.250.113.36 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group1/create3_examples_ws/build/py_pubsub/prefix_override:/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[13.087349] (-) TimerEvent: {}
+[13.198001] (-) TimerEvent: {}
+[13.300228] (-) TimerEvent: {}
+[13.402552] (-) TimerEvent: {}
+[13.504581] (-) TimerEvent: {}
+[13.606667] (-) TimerEvent: {}
+[13.708688] (-) TimerEvent: {}
+[13.810822] (-) TimerEvent: {}
+[13.912838] (-) TimerEvent: {}
+[14.015056] (-) TimerEvent: {}
+[14.117125] (-) TimerEvent: {}
+[14.219813] (-) TimerEvent: {}
+[14.321894] (-) TimerEvent: {}
+[14.424122] (-) TimerEvent: {}
+[14.525999] (-) TimerEvent: {}
+[14.628142] (-) TimerEvent: {}
+[14.730177] (-) TimerEvent: {}
+[14.832217] (-) TimerEvent: {}
+[14.934241] (-) TimerEvent: {}
+[15.036217] (-) TimerEvent: {}
+[15.138220] (-) TimerEvent: {}
+[15.240207] (-) TimerEvent: {}
+[15.342132] (-) TimerEvent: {}
+[15.444173] (-) TimerEvent: {}
+[15.546230] (-) TimerEvent: {}
+[15.648219] (-) TimerEvent: {}
+[15.751448] (-) TimerEvent: {}
+[15.853384] (-) TimerEvent: {}
+[15.955662] (-) TimerEvent: {}
+[16.057672] (-) TimerEvent: {}
+[16.162382] (-) TimerEvent: {}
+[16.263868] (-) TimerEvent: {}
+[16.365915] (-) TimerEvent: {}
+[16.467889] (-) TimerEvent: {}
+[16.570165] (-) TimerEvent: {}
+[16.672365] (-) TimerEvent: {}
+[16.774319] (-) TimerEvent: {}
+[16.876546] (-) TimerEvent: {}
+[16.978652] (-) TimerEvent: {}
+[17.080651] (-) TimerEvent: {}
+[17.183168] (-) TimerEvent: {}
+[17.285386] (-) TimerEvent: {}
+[17.387615] (-) TimerEvent: {}
+[17.489998] (-) TimerEvent: {}
+[17.592043] (-) TimerEvent: {}
+[17.694142] (-) TimerEvent: {}
+[17.796413] (-) TimerEvent: {}
+[17.898581] (-) TimerEvent: {}
+[18.000857] (-) TimerEvent: {}
+[18.102925] (-) TimerEvent: {}
+[18.204943] (-) TimerEvent: {}
+[18.307045] (-) TimerEvent: {}
+[18.391814] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[18.406248] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[18.408341] (-) TimerEvent: {}
+[18.410998] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[18.414665] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[18.417277] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[18.420741] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[18.456376] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[18.477347] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[18.480815] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[18.482849] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[18.485139] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/pubserial.py -> /home/group1/create3_examples_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[18.490256] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/group1/create3_examples_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[18.498072] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[18.503268] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[18.508789] (-) TimerEvent: {}
+[18.517771] (py_pubsub) StdoutLine: {'line': b'copying /home/group1/create3_examples_ws/build/py_pubsub/build/lib/py_pubsub/pubserial.py -> /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[18.523080] (py_pubsub) StdoutLine: {'line': b'copying /home/group1/create3_examples_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[18.534877] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/pubserial.py to pubserial.cpython-310.pyc\n'}
+[18.544456] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[18.552676] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[18.556174] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.583764] (py_pubsub) StdoutLine: {'line': b"removing '/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[18.594992] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[18.609191] (-) TimerEvent: {}
+[18.619869] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[18.709697] (-) TimerEvent: {}
+[18.811872] (-) TimerEvent: {}
+[18.913866] (-) TimerEvent: {}
+[18.981096] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/group1/create3_examples_ws/install/py_pubsub/lib/py_pubsub\n'}
+[18.984391] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/group1/create3_examples_ws/install/py_pubsub/lib/py_pubsub\n'}
+[18.991001] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/group1/create3_examples_ws/build/py_pubsub/install.log'\n"}
+[19.014367] (-) TimerEvent: {}
+[19.116641] (-) TimerEvent: {}
+[19.220220] (-) TimerEvent: {}
+[19.321841] (-) TimerEvent: {}
+[19.342692] (py_pubsub) CommandEnded: {'returncode': 0}
+[19.423176] (-) TimerEvent: {}
+[19.528797] (-) TimerEvent: {}
+[19.587685] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[19.598737] (-) EventReactorShutdown: {}

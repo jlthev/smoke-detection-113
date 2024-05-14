@@ -1,0 +1,219 @@
+[2.619s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'py_pubsub']
+[2.621s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['py_pubsub'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff85bf7d00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff85b3c940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff85b3c940>>)
+[6.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.723s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/group1/create3_examples_ws'
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.982s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.984s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.987s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.989s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.990s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.992s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.994s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.999s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.004s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.010s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.011s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['ignore', 'ignore_ament_install']
+[7.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ignore'
+[7.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ignore_ament_install'
+[7.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['colcon_pkg']
+[7.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'colcon_pkg'
+[7.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['colcon_meta']
+[7.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'colcon_meta'
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['ros']
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ros'
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['cmake', 'python']
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'cmake'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'python'
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['python_setup_py']
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'python_setup_py'
+[7.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['ignore', 'ignore_ament_install']
+[7.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ignore'
+[7.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ignore_ament_install'
+[7.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['colcon_pkg']
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'colcon_pkg'
+[7.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['colcon_meta']
+[7.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'colcon_meta'
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['ros']
+[7.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ros'
+[7.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_coverage' with type 'ros.ament_cmake' and name 'create3_coverage'
+[7.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['ignore', 'ignore_ament_install']
+[7.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ignore'
+[7.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ignore_ament_install'
+[7.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['colcon_pkg']
+[7.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'colcon_pkg'
+[7.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['colcon_meta']
+[7.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'colcon_meta'
+[7.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['ros']
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ros'
+[7.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_examples_msgs' with type 'ros.ament_cmake' and name 'create3_examples_msgs'
+[7.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['ignore', 'ignore_ament_install']
+[7.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ignore'
+[7.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ignore_ament_install'
+[7.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['colcon_pkg']
+[7.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'colcon_pkg'
+[7.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['colcon_meta']
+[7.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'colcon_meta'
+[7.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['ros']
+[7.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ros'
+[7.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_examples_py' with type 'ros.ament_python' and name 'create3_examples_py'
+[7.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['ignore', 'ignore_ament_install']
+[7.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'ignore'
+[7.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'ignore_ament_install'
+[7.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['colcon_pkg']
+[7.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'colcon_pkg'
+[7.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['colcon_meta']
+[7.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'colcon_meta'
+[7.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extensions ['ros']
+[7.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar_slam) by extension 'ros'
+[7.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_lidar_slam' with type 'ros.ament_cmake' and name 'create3_lidar_slam'
+[7.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['ignore', 'ignore_ament_install']
+[7.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'ignore'
+[7.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'ignore_ament_install'
+[7.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['colcon_pkg']
+[7.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'colcon_pkg'
+[7.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['colcon_meta']
+[7.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'colcon_meta'
+[7.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extensions ['ros']
+[7.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_republisher) by extension 'ros'
+[7.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_republisher' with type 'ros.ament_cmake' and name 'create3_republisher'
+[7.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[7.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ignore'
+[7.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ignore_ament_install'
+[7.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['colcon_pkg']
+[7.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'colcon_pkg'
+[7.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['colcon_meta']
+[7.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'colcon_meta'
+[7.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['ros']
+[7.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ros'
+[7.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_teleop' with type 'ros.ament_python' and name 'create3_teleop'
+[7.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['ignore', 'ignore_ament_install']
+[7.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'ignore'
+[7.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'ignore_ament_install'
+[7.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['colcon_pkg']
+[7.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'colcon_pkg'
+[7.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['colcon_meta']
+[7.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'colcon_meta'
+[7.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['ros']
+[7.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'ros'
+[7.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/irobot_create_msgs' with type 'ros.ament_cmake' and name 'irobot_create_msgs'
+[7.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[7.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[7.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[7.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[7.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[7.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[7.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[7.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[7.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[7.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[7.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.768s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'create3_examples_msgs' in 'src/create3_examples/create3_examples_msgs'
+[7.769s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'create3_teleop' in 'src/create3_examples/create3_teleop'
+[7.770s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_msgs' in 'src/irobot_create_msgs'
+[7.770s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'create3_coverage' in 'src/create3_examples/create3_coverage'
+[7.771s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'create3_examples_py' in 'src/create3_examples/create3_examples_py'
+[7.771s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'create3_lidar_slam' in 'src/create3_examples/create3_lidar_slam'
+[7.772s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'create3_republisher' in 'src/create3_examples/create3_republisher'
+[7.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.835s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/group1/create3_examples_ws/install
+[7.877s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[8.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.979s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[8.979s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[8.980s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.981s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[8.981s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[8.982s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[8.982s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[8.983s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[8.983s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.984s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group1/create3_examples_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group1/create3_examples_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/group1/create3_examples_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[8.987s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.004s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/group1/create3_examples_ws/src/py_pubsub' with build type 'ament_python'
+[9.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[9.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[9.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[9.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[9.111s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.112s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.018s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/group1/create3_examples_ws/src/py_pubsub'
+[15.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group1/create3_examples_ws/src/py_pubsub': PYTHONPATH=/home/group1/create3_examples_ws/build/py_pubsub/prefix_override:/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/group1/create3_examples_ws/build/py_pubsub/build install --record /home/group1/create3_examples_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[28.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group1/create3_examples_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/group1/create3_examples_ws/build/py_pubsub/prefix_override:/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/group1/create3_examples_ws/build/py_pubsub/build install --record /home/group1/create3_examples_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[29.029s] Level 1:colcon.colcon_core.environment:checking '/home/group1/create3_examples_ws/install/py_pubsub' for CMake module files
+[29.042s] Level 1:colcon.colcon_core.environment:checking '/home/group1/create3_examples_ws/install/py_pubsub' for CMake config files
+[29.058s] Level 1:colcon.colcon_core.environment:checking '/home/group1/create3_examples_ws/install/py_pubsub/lib'
+[29.061s] Level 1:colcon.colcon_core.environment:checking '/home/group1/create3_examples_ws/install/py_pubsub/bin'
+[29.063s] Level 1:colcon.colcon_core.environment:checking '/home/group1/create3_examples_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[29.067s] Level 1:colcon.colcon_core.environment:checking '/home/group1/create3_examples_ws/install/py_pubsub/lib/python3.10/site-packages'
+[29.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[29.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[29.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[29.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[29.097s] Level 1:colcon.colcon_core.environment:checking '/home/group1/create3_examples_ws/install/py_pubsub/bin'
+[29.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[29.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[29.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[29.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[29.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[29.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/create3_examples_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[29.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group1/create3_examples_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[29.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.197s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.333s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.357s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[29.359s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/create3_examples_ws/install/local_setup.ps1'
+[29.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/group1/create3_examples_ws/install/_local_setup_util_ps1.py'
+[29.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/create3_examples_ws/install/setup.ps1'
+[29.433s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/create3_examples_ws/install/local_setup.sh'
+[29.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/group1/create3_examples_ws/install/_local_setup_util_sh.py'
+[29.453s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/create3_examples_ws/install/setup.sh'
+[29.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/create3_examples_ws/install/local_setup.bash'
+[29.491s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/create3_examples_ws/install/setup.bash'
+[29.518s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/create3_examples_ws/install/local_setup.zsh'
+[29.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/create3_examples_ws/install/setup.zsh'

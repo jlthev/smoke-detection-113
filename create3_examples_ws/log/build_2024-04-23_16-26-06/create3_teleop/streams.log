@@ -1,0 +1,25 @@
+[14.408s] Invoking command in '/home/group1/create3_examples_ws/src/create3_examples/create3_teleop': PYTHONPATH=/home/group1/create3_examples_ws/build/create3_teleop/prefix_override:/home/group1/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/group1/create3_examples_ws/build/create3_teleop/build install --record /home/group1/create3_examples_ws/build/create3_teleop/install.log --single-version-externally-managed install_data
+[19.792s] running egg_info
+[19.822s] creating ../../../build/create3_teleop/create3_teleop.egg-info
+[19.824s] writing ../../../build/create3_teleop/create3_teleop.egg-info/PKG-INFO
+[19.829s] writing dependency_links to ../../../build/create3_teleop/create3_teleop.egg-info/dependency_links.txt
+[19.832s] writing requirements to ../../../build/create3_teleop/create3_teleop.egg-info/requires.txt
+[19.834s] writing top-level names to ../../../build/create3_teleop/create3_teleop.egg-info/top_level.txt
+[19.836s] writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[19.839s] reading manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[19.868s] writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[19.876s] running build
+[19.879s] running install
+[19.883s] running install_data
+[19.885s] creating /home/group1/create3_examples_ws/install/create3_teleop/share/ament_index
+[19.888s] creating /home/group1/create3_examples_ws/install/create3_teleop/share/ament_index/resource_index
+[19.890s] creating /home/group1/create3_examples_ws/install/create3_teleop/share/ament_index/resource_index/packages
+[19.892s] copying resource/create3_teleop -> /home/group1/create3_examples_ws/install/create3_teleop/share/ament_index/resource_index/packages
+[19.895s] copying package.xml -> /home/group1/create3_examples_ws/install/create3_teleop/share/create3_teleop
+[19.897s] creating /home/group1/create3_examples_ws/install/create3_teleop/share/create3_teleop/launch
+[19.899s] copying launch/teleop_joystick_launch.py -> /home/group1/create3_examples_ws/install/create3_teleop/share/create3_teleop/launch
+[19.901s] running install_egg_info
+[19.931s] Copying ../../../build/create3_teleop/create3_teleop.egg-info to /home/group1/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages/create3_teleop-0.0.1-py3.10.egg-info
+[19.955s] running install_scripts
+[20.323s] writing list of installed files to '/home/group1/create3_examples_ws/build/create3_teleop/install.log'
+[20.772s] Invoked command in '/home/group1/create3_examples_ws/src/create3_examples/create3_teleop' returned '0': PYTHONPATH=/home/group1/create3_examples_ws/build/create3_teleop/prefix_override:/home/group1/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/group1/create3_examples_ws/build/create3_teleop/build install --record /home/group1/create3_examples_ws/build/create3_teleop/install.log --single-version-externally-managed install_data
