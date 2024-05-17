@@ -45,7 +45,7 @@ async def follow_wall(robot):
 
 async def follow_wall_right(robot):
     correction = 0
-    Kp = 0.039
+    Kp = 0.039 # subject to change
     set_point = 10
     while True:
         print( "following wall")
