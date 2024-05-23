@@ -67,6 +67,15 @@ void normalize(){
   }
   
 
+  int avg_l = sum_l / i;
+  int avg_c = sum_c / i;
+  int avg_r = sum_r / i;
+
+
+  left_threshold = avg_l + 50;
+  center_threshold = avg_c + 50;
+  right_threshold = avg_r + 50;
+
   //Total sum and average/50 values printed to the serial monitor
   Serial.println();
   Serial.println();
@@ -105,15 +114,6 @@ void normalize(){
   Serial.println();
   Serial.print("Continuously Updating Readout: ");
   Serial.println();
-
-  int avg_l = sum_l / i;
-  int avg_c = sum_c / i;
-  int avg_r = sum_r / i;
-
-
-  left_threshold = avg_l + 50;
-  center_threshold = avg_c + 50;
-  right_threshold = avg_r + 50;
 
 
   //Sum readouts in serial monitor
