@@ -1,17 +1,20 @@
 
+
+
+
 // Test update
 //set pins to variables
 int leftPin = A0;
 int midPin = A1;
 int rightPin = A2;
 
-//initialize sensor data to 0
+//initialize sensor data and threshold values to 0
 int left_data = 0;
 int mid_data = 0;
 int right_data = 0;
 
 float left_threshold = 0;
-float mid_threshold = 0;
+float center_threshold = 0;
 float right_threshold = 0;
 
 
@@ -62,19 +65,79 @@ void normalize(){
     i++;
     delay(200);
   }
+  
+
+  //Total sum and average/50 values printed to the serial monitor
+  Serial.println();
+  Serial.println();
+  Serial.print("Sums and Averages: ");
+  Serial.println();
+  Serial.print("Side:     ");
+  Serial.print("Sum Total");
+  Serial.print(" | ");
+  Serial.print("Averages");
+  Serial.print(" | ");
+  Serial.println();
+
+  Serial.print("Left:     ");
+  Serial.print(sum_l);
+  Serial.print(" | ");
+  Serial.print("    ");
+  Serial.print(avg_l);
+  Serial.println();
+
+  Serial.print("Center:   ");
+  Serial.print(sum_c);
+  Serial.print(" | ");
+  Serial.print("    ");
+  Serial.print(avg_c);
+  Serial.println();
+
+  Serial.print("Right:    ");
+  Serial.print(sum_r);
+  Serial.print(" | ");
+  Serial.print("    ");
+  Serial.print(avg_r);
+  Serial.println();
+
+  
+  Serial.println();
+  Serial.println();
+  Serial.print("Continuously Updating Readout: ");
+  Serial.println();
+
   int avg_l = sum_l / i;
   int avg_c = sum_c / i;
   int avg_r = sum_r / i;
+
+
+  left_threshold = avg_l + 50;
+  center_threshold = avg_c + 50;
+  right_threshold = avg_r + 50;
+
+
+  //Sum readouts in serial monitor
+  // Serial.print("Sum Left:  ");
+  // Serial.println(sum_l);
+  // Serial.println();
+  // Serial.print("Sum Center:  ");
+  // Serial.println(sum_c);
+  // Serial.println();
+  // Serial.print("Sum Right:  ");
+  // Serial.println(sum_r);
+  // Serial.println();
+  // Serial.println();
   
-  Serial.print("Average Left:  ");
-  Serial.println(avg_l);
-  Serial.println();
-  Serial.print("Average Center:  ");
-  Serial.println(avg_c);
-  Serial.println();
-  Serial.print("Average Right:  ");
-  Serial.println(avg_r);
-  Serial.println();
+  //Average of sum/50 readouts in serial monitor
+  // Serial.print("Average Left:  ");
+  // Serial.println(avg_l);
+  // Serial.println();
+  // Serial.print("Average Center:  ");
+  // Serial.println(avg_c);
+  // Serial.println();
+  // Serial.print("Average Right:  ");
+  // Serial.println(avg_r);
+  // Serial.println();
 
 
   // float sum_left50 = 0;
@@ -140,7 +203,6 @@ void normalize(){
 }
 
 
-
 void loop() {
   String current_state = "";
   //delay(10000);
@@ -154,7 +216,7 @@ void loop() {
   //Serial.print(right_threshold);
   //Serial.println();  
 
-  delay(500);
+  delay(5000);
 
   left_data = analogRead(leftPin);  // read the input pin
   Serial.print(left_data);          // debug value
@@ -177,7 +239,7 @@ void loop() {
   if(left_data > left_threshold + 100){
     current_state += "1";
   }
-  if(mid_data > mid_threshold + 100){
+  if(mid_data > center_threshold + 100){
     current_state += "2";
   }
   if(right_data > right_threshold + 100){
