@@ -34,11 +34,19 @@ To run any .py script on the iRobot it must be connected by either **Bluetooth**
          - Horizontal beam perpendicular to vertical beam, and parallel with platform, on top of the vertical beam (2mm x 24mm x 1mm).
          - On the bottom of the base platform circle centered at (17.5mm x 12mm) with radius (1.375mm), extruded downward (20mm).
       - *Version 2.0*
-         - Base platform for gas sensor (35mm x 24mm x 1mm).
+         - Base platform for gas sensor (34mm x 24mm x 1mm).
          - Vertical beam perpendicular to the platform on the left edge (1mm x 24mm) extruded upward (9.532mm).
          - Horizontal beam perpendicular to vertical beam, and parallel with platform, on top of the vertical beam (2mm x 24mm x 1mm).
          - On the bottom of the base platform circle centered at (17.5mm x 12mm) with radius 1.375mm, extruded downward (20mm).
-         - Front and back edges of base platform have perpendicularly joined walls (leveled with the base) measuring (35mm x 2mm) extruding outward (1mm)
+         - Front and back edges of base platform have perpendicularly joined walls (leveled with the base) measuring (35mm x 2mm) extruding outward (1mm) 
+      - *Version 3.0 (Final Design)*
+         - Base platform for gas sensor (34mm x 20mm x 1mm).
+         - Vertical beam perpendicular to the platform on the left  edge (22mm x 8.2mm) extruded outward (1mm).
+         - Horizontal beam perpendicular to left-edge vertical beam, and parallel with platform, on top of the vertical beam (22mm x 3mm x 1mm).
+         - On the bottom of the base platform cylinder extrusion centered at (17mm x 10mm) with radius 1.375mm, extruded downward (10mm).
+         - Front and back edges of base platform have perpendicularly joined walls (leveled with the base) measuring (34mm x 8mm) extruding outward (1mm)
+         - Two cylinder extrusions, equidistant from the front and back beam, respectively, centered at (2.375mm) from the front and back beam, and (3mm) from the right edge, extruded upward (8.5mm).
+
 
 ## ❖  Development Stages
 All files besides `main.py ` show development files before the final script. Read below to learn more about each file
