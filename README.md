@@ -23,7 +23,7 @@ WIP
 ## ❖ BLE Connectivity
 To run any .py script on the iRobot it must be connected by either **Bluetooth**, **WI-Fi**, or **Serial**. Setting up bluetooth is the easiest. Here is the way to connect to iRobot via Bluetooth using BLE.
 1. Identify the iRobot's 
-   - `Bluetooth(address="#irobot BLE MAC address")`
+   - `Bluetooth(address="#irobot BLE MAC address")` <- Varies Heavily based on OS
    - If issues persists read the issues page on [iRobot's github page](https://github.com/iRobotEducation/irobot-edu-python-sdk/issues)
   
 ## ❖ 3D Modeling Gas Sensor Mounting
