@@ -16,8 +16,6 @@ th = 200
 pos_array = []
 
 
-#!/usr/bin/env pytho
-
 async def forward(robot):
     await robot.set_lights_on_rgb(0, 255, 0)
     await robot.set_wheel_speeds(vel, vel)
@@ -101,6 +99,7 @@ async def bumped(robot):
     await robot.set_lights_on_rgb(255, 0, 0)
     await robot.move(-8)
     await robot.turn_left(90)
+    await robot.set_wheel_speeds(vel,vel)
 
 @event(robot.when_bumped, [False, True])
 async def bumped(robot):
@@ -109,6 +108,8 @@ async def bumped(robot):
     await robot.set_lights_on_rgb(255, 0, 0)
     await robot.move(-8)
     await robot.turn_left(90)
+    await robot.set_wheel_speeds(vel,vel)
+
 
     
 
