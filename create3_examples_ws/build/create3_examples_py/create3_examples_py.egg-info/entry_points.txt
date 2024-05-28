@@ -1,3 +1,0 @@
-[console_scripts]
-create3_dance = create3_examples_py.dance.create3_dance:main
-

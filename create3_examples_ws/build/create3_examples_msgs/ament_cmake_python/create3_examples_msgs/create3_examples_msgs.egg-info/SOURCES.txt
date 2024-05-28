@@ -1,8 +1,0 @@
-setup.py
-create3_examples_msgs/__init__.py
-create3_examples_msgs.egg-info/PKG-INFO
-create3_examples_msgs.egg-info/SOURCES.txt
-create3_examples_msgs.egg-info/dependency_links.txt
-create3_examples_msgs.egg-info/top_level.txt
-create3_examples_msgs/action/__init__.py
-create3_examples_msgs/action/_coverage.py
