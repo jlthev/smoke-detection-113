@@ -17,6 +17,7 @@ LEFT_th = 40
 RIGHT_th = 90
 th = 200
 pos_array = []
+current_state = 0
 
 # Set up Serial port
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
@@ -36,6 +37,7 @@ async def follow_wall(robot):
     Kp = -0.039
     set_point = 10
     while True:
+        await update_serial(robot)
         print( "following left wall")
         sensors = (await robot.get_ir_proximity()).sensors
         print(sensors[LEFT])
@@ -58,6 +60,7 @@ async def follow_wall_right(robot):
     Kp = 0.039 # subject to change
     set_point = 10
     while True:
+        await update_serial(robot)
         print( "following right wall")
         sensors = (await robot.get_ir_proximity()).sensors
         print(sensors[RIGHT])
@@ -103,20 +106,22 @@ async def bumped(robot):
     print ('Left bumper triggered')
     await robot.set_lights_on_rgb(255, 0, 0)
     await robot.move(-8)
+    await robot.set_lights_on_rgb(255, 255, 255)
 
 @event(robot.when_bumped, [False, True])
 async def bumped(robot):
     print ('Right bumper triggered')
     await robot.set_lights_on_rgb(255, 0, 0)
     await robot.move(-8)
+    await robot.set_lights_on_rgb(255, 255, 255)
 
 async def update_serial(robot):
     if ser.in_waiting > 0:
         line = ser.readline().decode('utf-8').rstrip()
         if(line and line[0] == "C" and line[1] == "u"):
-            current_state = line[15:]
-        print("line")
-        # print(f'Current State: {current_state}')
+            current_state = int(line[15:])
+    print(line)
+    # print(f'Current State: {current_state}')
     
 
 @event(robot.when_play)
@@ -127,16 +132,9 @@ async def play(robot):
     print('x y heading=', start)
     # time.sleep(5)
     await forward(robot)
-    current_state = 0
     while True:
         # Updating serial data
-        if ser.in_waiting > 0:
-            line = ser.readline().decode('utf-8').rstrip()
-            if(line and line[0] == "C" and line[1] == "u"):
-                current_state = line[15:]
-            # print(line)
-            print(f'Current State: {current_state}')
-
+        await update_serial(robot)
         sensors = (await robot.get_ir_proximity()).sensors
         print(sensors[LEFT])
         if sensors[LEFT] > LEFT_th:
@@ -182,7 +180,14 @@ async def play(robot):
         await robot.set_wheel_speeds(vel,vel)
 
         if current_state:
-            print("STATE ALERT")
+            await robot.set_lights_on_rgb(200, 100, 100)
+        else:
+            await robot.set_lights_on_rgb(255, 255, 255)
+
+        #     for i in pos_array[-1]:
+        #         pass
+                # await robot.navigate
+
 
 #test function
 # @event(robot.when_play)
