@@ -1,9 +1,14 @@
+#!/usr/bin/env python3
+
 from irobot_edu_sdk.backend.bluetooth import Bluetooth
 from irobot_edu_sdk.robots import event, hand_over, Color, Robot, Root, Create3
 from irobot_edu_sdk.music import Note
 import math
 import time
-robot = Create3(Bluetooth(address="C2C4A0B6-3E6F-5861-9866-D96E544ED98F"))
+import serial
+
+# Connect to 9F98 robot
+robot = Create3(Bluetooth(address="00:16:A4:4F:26:D4"))
 LEFT = 0
 FRONT = 3
 RIGHT = 6
@@ -12,6 +17,10 @@ LEFT_th = 40
 RIGHT_th = 90
 th = 200
 pos_array = []
+
+# Set up Serial port
+ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+ser.reset_input_buffer()
 
 async def forward(robot):
     await robot.set_lights_on_rgb(0, 255, 0)
@@ -101,6 +110,13 @@ async def bumped(robot):
     await robot.set_lights_on_rgb(255, 0, 0)
     await robot.move(-8)
 
+async def update_serial(robot):
+    if ser.in_waiting > 0:
+        line = ser.readline().decode('utf-8').rstrip()
+        if(line and line[0] == "C" and line[1] == "u"):
+            current_state = line[15:]
+        print("line")
+        # print(f'Current State: {current_state}')
     
 
 @event(robot.when_play)
@@ -111,7 +127,16 @@ async def play(robot):
     print('x y heading=', start)
     # time.sleep(5)
     await forward(robot)
+    current_state = 0
     while True:
+        # Updating serial data
+        if ser.in_waiting > 0:
+            line = ser.readline().decode('utf-8').rstrip()
+            if(line and line[0] == "C" and line[1] == "u"):
+                current_state = line[15:]
+            # print(line)
+            print(f'Current State: {current_state}')
+
         sensors = (await robot.get_ir_proximity()).sensors
         print(sensors[LEFT])
         if sensors[LEFT] > LEFT_th:
@@ -155,6 +180,9 @@ async def play(robot):
             await robot.set_wheel_speeds(0,0)
             await robot.turn_right(90)
         await robot.set_wheel_speeds(vel,vel)
+
+        if current_state:
+            print("STATE ALERT")
 
 #test function
 # @event(robot.when_play)

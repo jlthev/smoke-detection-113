@@ -8,4 +8,7 @@ if __name__ == '__main__':
     while True:
         if ser.in_waiting > 0:
             line = ser.readline().decode('utf-8').rstrip()
+            if(line and line[0] == "C" and line[1] == "u"):
+                current_state = line[15:]
+                # print(f'Current State: {current_state}')
             print(line)
